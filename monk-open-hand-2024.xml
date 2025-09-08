@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Warrior of the Open Hand" type="Archetype" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_MONK_WARRIOR_OF_THE_OPEN_HAND">
+		<supports>Monk Subclass</supports>
+		<description>
+			<p>Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.</p>
+			<div element="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_OPEN_HAND_TECHNIQUE" />
+			<div element="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_WHOLENESS_OF_BODY" />
+			<div element="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_FLEET_STEP" />
+			<div element="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_QUIVERING_PALM" />
+		</description>
+		<sheet display="false">
+			<description>The ultimate masters of martial arts combat, whether armed or unarmed.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_OPEN_HAND_TECHNIQUE" level="3"/>
+			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_WHOLENESS_OF_BODY" level="6"/>
+			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_FLEET_STEP" level="11"/>
+			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_QUIVERING_PALM" level="17"/>
+		</rules>
+	</element>
+	<element name="Open Hand Technique" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_OPEN_HAND_TECHNIQUE">
+		<description>
+			<p>Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target.</p>
+			<ul>
+				<li>Addle. The target can’t make Opportunity Attacks until the start of its next turn.</li>
+				<li>Push. The target must succeed on a Strength saving throw or be pushed up to 15 feet away from you.</li>
+				<li>Topple. The target must succeed on a Dexterity saving throw or have the Prone condition.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>When you hit a creature with an attack from Flurry of Blows, you can choose one of the following: Attempt to knock Prone (DEX Save), push 15 feet (STR Save), or it can’t make Opportunity Attacks until the end of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Wholeness of Body" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_WHOLENESS_OF_BODY">
+		<description>
+			<p>At 6th level, you gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained). You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+		</description>
+		<sheet action="Bonus Action" >
+			<description>Regain 1d{{martial arts:dice}}+{{wisdom:modifier}} Hit Points. You can use this feature {{wisdom:modifier}} times until you finish a Long Rest.</description>
+		</sheet>
+		<rules>
+			<stat name="martial arts:dice" value="6" bonus="martial arts" />
+			<stat name="martial arts:dice" value="8" bonus="martial arts" level="5" />
+			<stat name="martial arts:dice" value="10" bonus="martial arts" level="11" />
+			<stat name="martial arts:dice" value="12" bonus="martial arts" level="17" />
+		</rules>
+	</element>
+	<element name="Fleet Step" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_FLEET_STEP">
+		<description>
+			<p>Beginning at 11th level, when you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action.</p>
+		</description>
+		<sheet>
+			<description>When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action.</description>
+		</sheet>
+	</element>
+	<element name="Quivering Palm" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_QUIVERING_PALM">
+		<description>
+			<p>At 17th level, you gain the ability to set up lethal vibrations in someone’s body. When you hit a creature with an Unarmed Strike, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you use your action to end them. Alternatively, when you take the Attack action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking 10d12 Force damage on a failed save or half as much damage on a successful one.</p>
+			<p class="indent">You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly (no action required).</p>
+		</description>
+		<sheet usage="4 Focus Points">
+			<description>When you hit a creature with an Unarmed Strike, you can start imperceptible vibrations which last for {{level:monk}} days and you must use an Action to end them. Alternatively, when you take the Attack action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must pass a Constitution saving throw or take 10d12 Force damage (half as much on a success). You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.</description>
+		</sheet>
+		
+	</element>
+
+</elements>

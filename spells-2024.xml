@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Chill Touch" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_CHILL_TOUCH">
+		<supports>Sorcerer, Warlock, Wizard, Ranged, Spell Attack</supports>
+		<description>
+			<p>Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes 1d10 Necrotic damage, and it can’t regain Hit Points until the end of your next turn.</p>
+			<p class="indent"><b><i>Cantrip Upgrade.</i></b> The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</p>
+		</description>
+		<setters>
+			<set name="keywords">necrotic</set>
+			<set name="level">0</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Dancing Lights" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_DANCING_LIGHTS">
+		<supports>Bard, Sorcerer, Wizard, Artificer</supports>
+		<description>
+			<p>You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius. As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell’s range.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a bit of phosphorous</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Darkness" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_DARKNESS">
+		<supports>Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>For the duration, magical Darkness spreads from a point within range and fills a 15-foot-radius Sphere. Darkvision can’t see through it, and nonmagical light can’t illuminate it. Alternatively, you cast the spell on an object that isn’t being worn or carried, causing the Darkness to fill a 15-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the Darkness. If any of this spell’s area overlaps with an area of Bright Light or Dim Light created by a spell of level 2 or lower, that other spell is dispelled.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">bat fur and a piece of coal</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Detect Magic" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_DETECT_MAGIC">
+		<supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock, Artificer</supports>
+		<description>
+			<p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell’s school of magic. The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+	<element name="Detect Thoughts" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_DETECT_THOUGHTS">
+		<supports>Bard, Sorcerer, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.</p>
+			<p class="indent">Sense Thoughts. You sense the presence of thoughts within 30 feet of yourself that belong to creatures that know languages or are telepathic. You don’t read the thoughts, but you know that a thinking creature is present. The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>
+			<p class="indent">Read Thoughts. Target one creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected with the Sense Thoughts option. You learn what is most on the target’s mind right now. If the target doesn’t know any languages and isn’t telepathic, you learn nothing. As a Magic action on your next turn, you can try to probe deeper into the target’s mind. If you probe deeper, the target makes a Wisdom saving throw. On a failed save, you discern the target’s reasoning, emotions, and something that looms large in its mind (such as a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are probing into its mind, and until you shift your attention away from the target’s mind, the target can take an action on its turn to make an Intelligence (Arcana) check against your spell save DC, ending the spell on a success.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">1 copper piece</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Druidcraft" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_DRUIDCRAFT">
+		<supports>Druid</supports>
+		<description>
+			<p>Whispering to the spirits of nature, you create one of the following effects within range.</p>
+			<ul>
+				<li>Weather Sensor. You create a Tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</li>
+				<li>Bloom. You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</li>
+				<li>Sensory Effect. You create a harmless sensory effect, such as falling leaves, spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must fit in a 5-foot Cube.</li>
+				<li>Fire Play. You light or snuff out a candle, a torch, or a campfire.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">utility</set>
+			<set name="level">0</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Elementalism" type="Spell" source="Player’s Handbook (2024) (2024)" id="ID_PHB_2024_SPELL_ELEMENTALISM">
+		<supports>Druid, Sorcerer, Wizard</supports>
+		<description>
+			<p>You exert control over the elements, creating one of the following effects within range.</p>
+			<p class="indent"><strong><em>Beckon Air.</em></strong> You create a breeze strong enough to ripple cloth, stir dust, rustle leaves, and close open doors and shutters, all in a 5-foot Cube. Doors and shutters being held open by someone or something aren’t affected.</p>
+			<p class="indent"><strong><em>Beckon Earth.</em></strong> You create a thin shroud of dust or sand that covers surfaces in a 5-foot-square area, or you cause a single word to appear in your handwriting in a patch of dirt or sand.</p>
+			<p class="indent"><strong><em>Beckon Fire.</em></strong> You create a thin cloud of harmless embers and colored, scented smoke in a 5-foot Cube. You choose the color and scent, and the embers can light candles, torches, or lamps in that area. The smoke’s scent lingers for 1 minute.</p>
+			<p class="indent"><strong><em>Beckon Water.</em></strong> You create a spray of cool mist that lightly dampens creatures and objects in a 5-foot Cube. Alternatively, you create 1 cup of clean water either in an open container or on a surface, and the water evaporates in 1 minute.</p>
+			<p class="indent"><strong><em>Sculpt Element.</em></strong> You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour.</p>
+		</description>
+		<setters>
+			<set name="keywords">air,earth,fire,water</set>
+			<set name="level">0</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Faerie Fire" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_FAERIE_FIRE">
+		<supports>Bard, Druid, Artificer, Spell Saving Throw</supports>
+		<description>
+			<p>Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed Dim Light in a 10-foot radius and can’t benefit from the Invisible condition. Attack rolls against an affected creature or object have Advantage if the attacker can see it.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="False Life" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_FALSE_LIFE">
+		<supports>Sorcerer, Wizard, Artificer</supports>
+		<description>
+			<p>You gain 2d4 + 4 Temporary Hit Points.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> You gain 5 additional Temporary Hit Points for each spell slot level above 1.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a drop of alcohol</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Fire Bolt" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_FIRE_BOLT">
+		<supports>Sorcerer, Wizard, Artificer, Ranged, Spell Attack</supports>
+		<description>
+			<p>You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn’t being worn or carried.</p>
+			<p class="indent"><b><i>Cantrip Upgrade.</i></b> The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</p>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Hellish Rebuke" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_HELLISH_REBUKE">
+		<supports>Warlock, Spell Saving Throw</supports>
+		<description>
+			<p>The creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> The damage increases by 1d10 for each spell slot level above 1.</p>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 reaction, which you take in response to taking damage from a creature that you can see within 60 feet of yourself</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Hold Person" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_HOLD_PERSON">
+		<supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>Choose a Humanoid that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> You can target one additional Humanoid for each spell slot level above 2.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a straight piece of iron</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Invisibility" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_INVISIBILITY">
+		<supports>Bard, Sorcerer, Warlock, Wizard, Artificer</supports>
+		<description>
+			<p>A creature you touch has the Invisible condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> You can target one additional creature for each spell slot level above 2.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">an eyelash in gum arabic</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Light" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_LIGHT">
+		<supports>Bard, Cleric, Sorcerer, Wizard, Artificer</supports>
+		<description>
+			<p>You touch one Large or smaller object that isn’t being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like. Covering the object with something opaque blocks the light. The spell ends if you cast it again.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 hour</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a firefly or phosphorescent moss</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Longstrider" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_LONGSTRIDER">
+		<supports>Bard, Druid, Ranger, Wizard, Artificer</supports>
+		<description>
+			<p>You touch a creature. The target’s Speed increases by 10 feet until the spell ends.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> You can target one additional creature for each spell slot level above 1.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 hour</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a pinch of dirt</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Mage Hand" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_MAGE_HAND">
+		<supports>Bard, Sorcerer, Warlock, Wizard, Artificer</supports>
+		<description>
+			<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again. When you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. As a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet. The hand can’t attack, activate magic items, or carry more than 10 pounds.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Mending" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_MENDING">
+		<supports>Bard, Cleric, Druid, Sorcerer, Wizard, Artificer</supports>
+		<description>
+			<p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage. This spell can physically repair a magic item, but it can’t restore magic to such an object.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 minute</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">two lodestones</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Minor Illusion" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_MINOR_ILLUSION">
+		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You create a sound or an image of an object within range that lasts for the duration. See the descriptions below for the effects of each. The illusion ends if you cast this spell again. If a creature takes a Study action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p>
+			<p class="indent">Sound. If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else’s voice, a lion’s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p>
+			<p class="indent">Image. If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can’t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a bit of fleece</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Misty Step" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_MISTY_STEP">
+		<supports>Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.</p>
+		</description>
+		<setters>
+			<set name="keywords">teleportation</set>
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Pass without Trace" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_PASS_WITHOUT_TRACE">
+		<supports>Druid, Ranger</supports>
+		<description>
+			<p>You radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to Dexterity (Stealth) checks and leave no tracks.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">ashes from burned mistletoe</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Poison Spray" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_POISON_SPRAY">
+		<supports>Druid, Sorcerer, Warlock, Wizard, Artificer</supports>
+		<description>
+			<p>You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.</p>
+			<p class="indent"><b><i>Cantrip Upgrade.</i></b> The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).</p>
+		</description>
+		<setters>
+			<set name="keywords">poison</set>
+			<set name="level">0</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Prestidigitation" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_PRESTIDIGITATION">
+		<supports>Bard, Sorcerer, Warlock, Wizard, Artificer</supports>
+		<description>
+			<p>You create a magical effect within range. Choose the effect from the options below. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time.</p>
+			<ul>
+				<li>Sensory Effect. You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li>
+				<li>Fire Play. You instantaneously light or snuff out a candle, a torch, or a small campfire.</li>
+				<li>Clean or Soil. You instantaneously clean or soil an object no larger than 1 cubic foot.</li>
+				<li>Minor Sensation. You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li>
+				<li>Magic Mark. You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li>
+				<li>Minor Creation. You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth.</li>
+			</ul>
+			<p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 hour</set>
+			<set name="range">10 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Ray of Enfeeblement" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_RAY_OF_ENFEEBLEMENT">
+		<supports>Warlock, Wizard, Ranged, Spell Saving Throw</supports>
+		<description>
+			<p>A beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has Disadvantage on the next attack roll it makes until the start of your next turn. On a failed save, the target has Disadvantage on Strength-based D20 Tests for the duration. During that time, it also subtracts 1d8 from all its damage rolls. The target repeats the save at the end of each of its turns, ending the spell on a success.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Ray of Sickness" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_RAY_OF_SICKNESS">
+		<supports>Sorcerer, Wizard, Ranged, Spell Attack</supports>
+		<description>
+			<p>You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the Poisoned condition until the end of your next turn.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> The damage increases by 1d8 for each spell slot level above 1.</p>
+		</description>
+		<setters>
+			<set name="keywords">poison</set>
+			<set name="level">1</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Speak with Animals" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_SPEAK_WITH_ANIMALS">
+		<supports>Bard, Druid, Ranger, Warlock</supports>
+		<description>
+			<p>For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action’s skill options with them. Most Beasts have little to say about topics that don’t pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="duration">10 minutes</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+</elements>

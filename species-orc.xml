@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Orc" type="Race" source="Player's Handbook (2024)" alt="Orc" id="ID_SPECIES_ORC">
+		<description>
+			<h4>ORC TRAITS</h4>
+			<p>Your orc character has the following racial traits.</p>
+			<p>
+				<span class="feature">Age.</span> Orcs reach adulthood at age 12 and live up to 50 years. <br/>
+				<span class="feature">Size.</span> Orcs are usually about 6-7 feet tall. Your size is Medium.<br/>
+				<span class="feature">Speed.</span> Your base walking speed is 30 feet.<br/>
+				<span class="feature">Darkvision.</span> You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+				<span class="feature">Relentless Endurance.</span> When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can’t do so again until you finish a Long Rest.<br/>
+				<span class="feature">Adrenaline Rush.</span> You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.<br/>
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<!-- names taken from online generator to have at least a few names in here -->
+			<set name="names" type="male">Zhok, Dhag, Dull, Nondakk, Grortud, Rhakrog, Lavran, Loggug</set>
+			<set name="names" type="female">Huz, Nim, Div,Kuatam, Idkiel, Gaodki, Saav</set>
+			<set name="names" type="title">The Silent, Doom Axe, Vermin Axe, The Cold, The Simple, The Brute, The Violent</set>
+			<set name="names-format">{{name}} {{title}}</set>
+		</setters>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Languages" supports="Common Languages" number="2" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_RELENTLESS_ENDURANCE" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_ORC_DARKVISION" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_ADRENALINE_RUSH" />
+		</rules>
+	</element>
+
+	<element name="Darkvision" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_ORC_DARKVISION">
+		<description>
+			<p>You have Darkvision with a range of 120 feet.</p>
+		</description>
+		<sheet>
+			<description>You have Darkvision with a range of 120 feet.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+	
+	<element name="Relentless Endurance" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_RELENTLESS_ENDURANCE">
+		<description>
+			<p>When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can’t do so again until you finish a Long Rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When you are reduced to 0 HP but not killed outright, you can drop to 1 hp instead.</description>
+		</sheet>
+	</element>
+	
+	<element name="Adrenaline Rush" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_ADRENALINE_RUSH">
+		<description>
+			<p>You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.</p>
+		</description>
+		<sheet>
+			<description>You can take the Dash action as a Bonus Action. When you do so, you gain {{proficiency}} Temporary Hit Points. You can use this trait {{proficiency}} times, and you regain all expended uses when you finish a Short or Long Rest.</description>
+		</sheet>
+	</element>
+	
+</elements>

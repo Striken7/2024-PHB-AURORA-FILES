@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Tiefling" type="Race" source="Player’s Handbook (2024)" id="ID_SPECIES_TIEFLING">
+		<description>
+			<p class="flavor">To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus—overlord of the Nine Hells—into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children’s children will always be held accountable.</p>
+			<h4>INFERNAL BLOODLINE</h4>
+			<p>Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance. Tieflings have large horns that take any of a variety of shapes: some have curling horns like a ram, others have straight and tall horns like a gazelle’s, and some spiral upward like an antelopes’ horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors—black, red, white, silver, or gold—with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various shades of red. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple.</p>
+			<h4>SELF-RELIANT AND SUSPICIOUS</h4>
+			<p>Tieflings subsist in small minorities found mostly in human cities or towns, often in the roughest quarters of those places, where they grow up to be swindlers, thieves, or crime lords. Sometimes they live among other minority populations in enclaves where they are treated with more respect.</p>
+			<p class="indent">Lacking a homeland, tieflings know that they have to make their own way in the world and that they have to be strong to survive. They are not quick to trust anyone who claims to be a friend, but when a tiefling’s companions demonstrate that they trust him or her, the tiefling learns to extend the same trust to them. And once a tiefling gives someone loyalty, the tiefling is a firm friend or ally for life.</p>
+			<h4>TIEFLING NAMES</h4>
+			<p>Tiefling names fall into three broad categories. Tieflings born into another culture typically have names reflective of that culture. Some have names derived from the Infernal language, passed down through generations, that reflect their fiendish heritage. And some younger tieflings, striving to find a place in the world, adopt a name that signifies a virtue or other concept and then try to embody that concept. For some, the chosen name is a noble quest. For others, it’s a grim destiny.</p>
+			<ul class="unstyled">
+				<li><strong>Male Infernal Names:</strong> Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</li>
+				<li><strong>Female Infernal Names:</strong> Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</li>
+				<li><strong>“Virtue” Names:</strong> Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary</li>
+			</ul>
+			<h4>TIEFLING TRAITS</h4>
+			<p>Tieflings share certain racial traits as a result of their infernal descent.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Tieflings mature at the same rate as humans but live a few years longer.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Your size is Medium (about 4-7 feet tall) or Small (about 3-4 feet tall), chosen when you select this species.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Fiendish Legacy.</em></strong> You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy. When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy). </p>
+			<p class="indent"><strong><em>Otherworldly Presence.</em></strong> You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</set>
+			<set name="names" type="female">Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</set>
+			<set name="names" type="virtue">Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary</set>
+			<set name="names-format">{{name}} “{{virtue}}”</set>
+			<set name="height" modifier="2d8">4'9"</set>
+			<set name="weight" modifier="2d4">110 lb.</set>
+		</setters>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<select type="Racial Trait" name="Size" supports="Tiefling Size" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Languages" supports="Common Languages" number="2" />
+			<select type="Racial Trait" name="Fiendish Legacy" supports="Fiendish Legacy" />
+			<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+		</rules>
+	</element>
+	
+	<element name="Medium" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TIEFLING_SIZE_MEDIUM">
+		<supports>Tiefling Size</supports>
+		<description>
+			<p>Your size is Medium (about 4-7 feet tall).</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+		</rules>
+	</element>
+	<element name="Small" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TIEFLING_SIZE_SMALL">
+		<supports>Tiefling Size</supports>
+		<description>
+			<p>Your size is Small (about 3-4 feet tall).</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Size" id="ID_SIZE_SMALL" />
+		</rules>
+	</element>
+	
+	<element name="Abyssal" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TIEFLING_ABYSSAL">
+		<supports>Fiendish Legacy</supports>
+		<description>
+			<p>You have Resistance to Poison damage. You also know the Poison Spray cantrip. At level 3 you learn the Ray of Sickness spell, and at level 5 you learn the Hold Person spell. You always have these spell prepared. You can cast these spells once without a spell slot, and you regain the ability to cast in that way when you finish a Long Rest. You can also cast these spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)</p>
+		</description>
+		<sheet>
+			<description>You have Resistance to Poison damage. You always have the spells granted by this legacy prepared. You can cast them once without a spell slot, and you regain the ability to cast in this way when you finish a Long Rest. You can also cast these spells using any spell slots you have of the appropriate level.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Spellcasting Ability (Fiendish Legacy)" supports="Fiendish Legacy Ability" />
+			<grant type="Spell" id="ID_PHB_SPELL_POISON_SPRAY" />
+			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_SICKNESS" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5"/>
+		</rules>
+	</element>
+	<element name="Chthonic" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TIEFLING_CHTHONIC">
+		<supports>Fiendish Legacy</supports>
+		<description>
+			<p>You have Resistance to Necrotic damage. You also know the Chill Touch cantrip. At level 3 you learn the False Life spell, and at level 5 you learn the Ray of Enfeeblement spell. You always have these spell prepared. You can cast these spells once without a spell slot, and you regain the ability to cast in that way when you finish a Long Rest. You can also cast these spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)</p>
+		</description>
+		<sheet>
+			<description>You have Resistance to Necrotic damage. You always have the spells granted by this legacy prepared. You can cast them once without a spell slot, and you regain the ability to cast in this way when you finish a Long Rest. You can also cast these spells using any spell slots you have of the appropriate level.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Spellcasting Ability (Fiendish Legacy)" supports="Fiendish Legacy Ability" />
+			<grant type="Spell" id="ID_PHB_SPELL_CHILL_TOUCH" />
+			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT" level="5"/>
+		</rules>
+	</element>
+	<element name="Infernal" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TIEFLING_INFERNAL">
+		<supports>Fiendish Legacy</supports>
+		<description>
+			<p>You have Resistance to Fire damage. You also know the Fire Bolt cantrip. At level 3 you learn the Hellish Rebuke spell, and at level 5 you learn the Darkness spell. You always have these spell prepared. You can cast these spells once without a spell slot, and you regain the ability to cast in that way when you finish a Long Rest. You can also cast these spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)</p>
+		</description>
+		<sheet>
+			<description>You have Resistance to Necrotic damage. You always have the spells granted by this legacy prepared. You can cast them once without a spell slot, and you regain the ability to cast in this way when you finish a Long Rest. You can also cast these spells using any spell slots you have of the appropriate level.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Spellcasting Ability (Fiendish Legacy)" supports="Fiendish Legacy Ability" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
+			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5"/>
+		</rules>
+	</element>
+	
+	<element name="Intelligence" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TIEFLING_LEGACY_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Fiendish Legacy Ability</supports>
+		<description>
+			<p>Your spellcasting ability for these spells is Intelligence.</p>
+		</description>
+		<sheet>
+			<description>Your spellcasting ability for these spells is Intelligence.</description>
+		</sheet>
+	</element>
+	<element name="Wisdom" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TIEFLING_LEGACY_WISDOM">
+		<compendium display="false" />
+		<supports>Fiendish Legacy Ability</supports>
+		<description>
+			<p>Your spellcasting ability for these spells is Wisdom.</p>
+		</description>
+		<sheet>
+			<description>Your spellcasting ability for these spells is Wisdom.</description>
+		</sheet>
+	</element>
+	<element name="Charisma" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TIEFLING_LEGACY_CHARISMA">
+		<compendium display="false" />
+		<supports>Fiendish Legacy Ability</supports>
+		<description>
+			<p>Your spellcasting ability for these spells is Charisma.</p>
+		</description>
+		<sheet>
+			<description>Your spellcasting ability for these spells is Charisma.</description>
+		</sheet>
+	</element>
+	
+</elements>

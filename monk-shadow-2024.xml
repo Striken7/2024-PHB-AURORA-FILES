@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Warrior of Shadow" type="Archetype" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_MONK_WARRIOR_OF_SHADOW">
+		<supports>Monk Subclass</supports>
+		<description>
+			<p>Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadowdancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves’ guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students.</p>
+			<div element="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_ARTS" />
+			<div element="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_STEP" />
+			<div element="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_IMPROVED_SHADOW_STEP" />
+			<div element="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_CLOAK_OF_SHADOWS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_ARTS" level="3"/>
+			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_STEP" level="6" />
+			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_STEP_2" level="6" />
+			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_IMPROVED_SHADOW_STEP" level="11"/>
+			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_CLOAK_OF_SHADOWS" level="17"/>
+		</rules>
+	</element>
+	<element name="Shadow Arts" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_ARTS">
+		<description>
+			<p>You have learned to draw on the power of the Shadowfell, gaining the following benefits:</p>
+			<ul>
+				<li>Darkness. You can spend 1 Focus Point to cast the Darkness spell without any spell components. You can see within the spell’s area when you cast it with this feature. While the spell persists, you can move its area of darkness to a space within 60 feet of you at the start of each of your turns.</li>
+				<li>Darkvision. You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</li>
+				<li>Shadowy Figments. You know the Minor Illusion cantrip and use Wisdom as the spellcasting ability for it.</li>
+			</ul>
+		</description>
+		<sheet action="Magic Action" usage="1 Focus Point">
+			<description>Cast the Darkness spell without any spell components. You can see within the spell’s area when you cast it with this feature. While the spell persists, you can move its area of darkness to a space within 60 feet of you at the start of each of your turns.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_DARKVISION" requirements="ID_VISION_DARKVISION"/>
+		</rules>
+	</element>
+	<element name="Darkvision" type="Racial Trait" source="Player’s Handbook" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_DARKVISION">
+		<sheet>
+			<description>You have Darkvision with a range of 120 feet.</description>
+		</sheet>
+	</element>
+	<element name="Shadow Step" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_STEP">
+		<requirements>!ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_IMPROVED_SHADOW_STEP</requirements>
+		<description>
+			<p>At 6th level, you gain the ability to step from one shadow into another. While entirely within Dim Light or Darkness, you can use a Bonus Action to teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You then have Advantage on the next melee attack you make before the end of the turn.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>While entirely within Dim Light or Darkness, you can teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You have Advantage on the next melee attack you make before the end of the turn.</description>
+		</sheet>
+	</element>
+	<element name="Shadow Step" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_STEP_2">
+		<requirements>ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_IMPROVED_SHADOW_STEP</requirements>
+		<description>
+			<p>At 11th level, you can draw on your Shadowfell connection to empower your teleportation. When you use your Shadow Step, you can spend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after the teleportation.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>While entirely within Dim Light or Darkness, you can teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You have Advantage on the next melee attack you make before the end of the turn. You can spend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness, and you can make an Unarmed Strike immediately after the teleportation.</description>
+		</sheet>
+	</element>
+	<element name="Improved Shadow Step" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_IMPROVED_SHADOW_STEP">
+		<description>
+			<p>At 11th level, you can draw on your Shadowfell connection to empower your teleportation. When you use your Shadow Step, you can spend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after the teleportation.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Cloak of Shadows" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_CLOAK_OF_SHADOWS">
+		<description>
+			<p>By 17th level, as a Magic Action while entirely within Dim Light or Darkness, you can expend 3 Focus Points to shroud yourself with shadows for 1 minute, until you have the Incapacitated condition, or until you end your turn in Bright Light. While shrouded by these shadows, you gain the following benefits:</p>
+			<ul>
+				<li>Invisibility. You have the Invisible condition.</li>
+				<li>Partially Incorporeal. You can move through occupied spaces as if they were Difficult Terrain. If you end your turn such a space, you are shunted to the last unoccupied space you were in.</li>
+				<li>Shadow Flurry. You can use your Flurry of Blows without expending any Focus Points.</li>
+			</ul>
+		</description>
+		<sheet action="Magic Action" usage="3 Focus Points">
+			<description>While entirely within Dim Light or Darkness, you shroud yourself with shadows for 1 minute, until you have the Incapacitated condition, or until you end your turn in Bright Light. While shrouded by these shadows you are Invisible, you can freely use your Flurry of Blows, and you can move through occupied spaces as if they were Difficult Terrain. If you end your turn such a space, you are shunted to the last unoccupied space you were in.</description>
+		</sheet>
+	</element>
+</elements>

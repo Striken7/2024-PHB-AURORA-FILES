@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Custom Background" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB_BACKGROUND_CUSTOM_2024">
+		<description>
+			<p>You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you assign attribute points, choose an origin feat, choose any two skills, and choose one tool proficiency. You can either use the equipment package from your background or spend coin on gear as described in chapter 5. (If you spend coin, you can’t also take the equipment package suggested for your class.) Finally, choose two personality traits, one ideal, one bond, and one flaw. If you can’t find a feature that matches your desired background, work with your DM to create one.</p>
+			<ul>
+				<li><strong>Ability Score Increase:</strong> You can split 3 ability points between two or three abilities that you choose.</li>
+				<li><strong>Origin Feat:</strong> You can select one origin feat.</li>
+				<li><strong>Skill Proficiencies:</strong> You can select any two skills to be proficient with.</li>
+				<li><strong>Tool Proficiencies:</strong> You can select one tool proficiency.</li>
+				<li><strong>Equipment:</strong> Start with the equipment package from a different background or start with 50 GP to spend on gear.</li>
+			</ul>
+			<p class="indent"><i><b><u>Note 2:</u></b></i> Custom Background doesn't include any selections for personality traits, ideals, bonds or flaws, you can input them manually in <b>Backstory</b> tab of <b>Manage</b> menu.</p>
+		</description>
+		<setters>
+			<set name="short">2 Skills, 1 Tool Proficiency, and 1 Origin Feat</set>
+		</setters>
+		<rules>
+			<select type="Feat" name="Origin Feat (Custom Background)" supports="Origin Feats" />
+			<select type="Background Feature" name="Ability Score Increase (Custom Background)" supports="Background Attribute" />
+			<select type="Proficiency" name="Skill Proficiency (Custom Background)" number="2" supports="Skill" />
+			<select type="Proficiency" name="Tool Proficiency (Custom Background)" supports="Tool" />
+		</rules>
+	</element>
+	
+	<element name="Attribute Bonus +2/+1" type="Background Feature" source="Player’s Handbook" id="ID_WOTC_PHB_BACKGROUND_ATTRIBUTE_DOUBLE">
+		<supports>Background Attribute</supports>
+		<compendium display="false" />
+		<sheet display="false" />
+		<rules>
+			<select type="Background Feature" name="Ability Score Increase +2" supports="Background Attribute Double" />
+		</rules>
+	</element>
+	<element name="Attribute Bonus +1/+1/+1" type="Background Feature" source="Player’s Handbook" id="ID_WOTC_PHB_BACKGROUND_ATTRIBUTE_TRIPLE">
+		<supports>Background Attribute</supports>
+		<compendium display="false" />
+		<sheet display="false" />
+		<rules>
+			<select type="Background Feature" name="Ability Score Increase +1" number="3" supports="Background Attribute Triple" />
+		</rules>
+	</element>
+	
+	<element name="Strength" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_STRENGTH_1">
+		<supports>Background Attribute Double</supports>
+		<description>Increase your Strength score by 2.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" alt="Background" />
+			<select type="Background Feature" name="Ability Score Increase +1" supports="Background Attribute Strength" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_DEXTERITY_1">
+		<supports>Background Attribute Double</supports>
+		<description>Increase your Dexterity score by 2.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" alt="Background" />
+			<select type="Background Feature" name="Ability Score Increase +1" supports="Background Attribute Dexterity" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CONSTITUTION_1">
+		<supports>Background Attribute Double</supports>
+		<description>Increase your Constitution score by 2.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" alt="Background" />
+			<select type="Background Feature" name="Ability Score Increase +1" supports="Background Attribute Constitution" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_INTELLIGENCE_1">
+		<supports>Background Attribute Double</supports>
+		<description>Increase your Intelligence score by 2.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" alt="Background" />
+			<select type="Background Feature" name="Ability Score Increase +1" supports="Background Attribute Intelligence" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_WISDOM_1">
+		<supports>Background Attribute Double</supports>
+		<description>Increase your Wisdom score by 2.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" alt="Background" />
+			<select type="Background Feature" name="Ability Score Increase +1" supports="Background Attribute Wisdom" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CHARISMA_1">
+		<supports>Background Attribute Double</supports>
+		<description>Increase your Charisma score by 2.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" alt="Background" />
+			<select type="Background Feature" name="Ability Score Increase +1" supports="Background Attribute Charisma" />
+		</rules>
+	</element>
+	
+	<element name="Dexterity" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_DEXTERITY_2">
+		<supports>Background Attribute Strength</supports>
+		<description>Increase your Dexterity score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CONSTITUTION_2">
+		<supports>Background Attribute Strength</supports>
+		<description>Increase your Constitution score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_INTELLIGENCE_2">
+		<supports>Background Attribute Strength</supports>
+		<description>Increase your Intelligence score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_WISDOM_2">
+		<supports>Background Attribute Strength</supports>
+		<description>Increase your Wisdom score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CHARISMA_2">
+		<supports>Background Attribute Strength</supports>
+		<description>Increase your Charisma score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Background" />
+		</rules>
+	</element>
+	
+	<element name="Strength" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_STRENGTH_3">
+		<supports>Background Attribute Dexterity</supports>
+		<description>Increase your Strength score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CONSTITUTION_3">
+		<supports>Background Attribute Dexterity</supports>
+		<description>Increase your Constitution score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_INTELLIGENCE_3">
+		<supports>Background Attribute Dexterity</supports>
+		<description>Increase your Intelligence score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_WISDOM_3">
+		<supports>Background Attribute Dexterity</supports>
+		<description>Increase your Wisdom score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CHARISMA_3">
+		<supports>Background Attribute Dexterity</supports>
+		<description>Increase your Charisma score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Background" />
+		</rules>
+	</element>
+	
+	<element name="Strength" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_STRENGTH_4">
+		<supports>Background Attribute Constitution</supports>
+		<description>Increase your Strength score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_DEXTERITY_4">
+		<supports>Background Attribute Constitution</supports>
+		<description>Increase your Dexterity score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_INTELLIGENCE_4">
+		<supports>Background Attribute Constitution</supports>
+		<description>Increase your Intelligence score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_WISDOM_4">
+		<supports>Background Attribute Constitution</supports>
+		<description>Increase your Wisdom score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CHARISMA_4">
+		<supports>Background Attribute Constitution</supports>
+		<description>Increase your Charisma score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Background" />
+		</rules>
+	</element>
+	
+	<element name="Strength" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_STRENGTH_5">
+		<supports>Background Attribute Intelligence</supports>
+		<description>Increase your Strength score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_DEXTERITY_5">
+		<supports>Background Attribute Intelligence</supports>
+		<description>Increase your Dexterity score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CONSTITUTION_5">
+		<supports>Background Attribute Intelligence</supports>
+		<description>Increase your Constitution score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_WISDOM_5">
+		<supports>Background Attribute Intelligence</supports>
+		<description>Increase your Wisdom score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CHARISMA_5">
+		<supports>Background Attribute Intelligence</supports>
+		<description>Increase your Charisma score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Background" />
+		</rules>
+	</element>
+	
+	<element name="Strength" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_STRENGTH_6">
+		<supports>Background Attribute Wisdom</supports>
+		<description>Increase your Strength score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_DEXTERITY_6">
+		<supports>Background Attribute Wisdom</supports>
+		<description>Increase your Dexterity score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CONSTITUTION_6">
+		<supports>Background Attribute Wisdom</supports>
+		<description>Increase your Constitution score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_INTELLIGENCE_6">
+		<supports>Background Attribute Wisdom</supports>
+		<description>Increase your Intelligence score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CHARISMA_6">
+		<supports>Background Attribute Wisdom</supports>
+		<description>Increase your Charisma score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Background" />
+		</rules>
+	</element>
+	
+	<element name="Strength" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_STRENGTH_7">
+		<supports>Background Attribute Charisma</supports>
+		<description>Increase your Strength score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_DEXTERITY_7">
+		<supports>Background Attribute Charisma</supports>
+		<description>Increase your Dexterity score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CONSTITUTION_7">
+		<supports>Background Attribute Charisma</supports>
+		<description>Increase your Constitution score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_INTELLIGENCE_7">
+		<supports>Background Attribute Charisma</supports>
+		<description>Increase your Intelligence score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_WISDOM_7">
+		<supports>Background Attribute Charisma</supports>
+		<description>Increase your Wisdom score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Background" />
+		</rules>
+	</element>
+	
+	<element name="Strength" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_STRENGTH_A">
+		<supports>Background Attribute A</supports>
+		<description>Increase your Strength score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_DEXTERITY_A">
+		<supports>Background Attribute A</supports>
+		<description>Increase your Dexterity score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CONSTITUTION_A">
+		<supports>Background Attribute A</supports>
+		<description>Increase your Constitution score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_INTELLIGENCE_A">
+		<supports>Background Attribute A</supports>
+		<description>Increase your Intelligence score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_WISDOM_A">
+		<supports>Background Attribute A</supports>
+		<description>Increase your Wisdom score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Background" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Background Feature" source="Player’s Handbook" id="ID_PHB_BACKGROUND2024_CHARISMA_A">
+		<supports>Background Attribute A</supports>
+		<description>Increase your Charisma score by 1.</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Background" />
+		</rules>
+	</element>
+		
+</elements>
+
+
+
+		
+	

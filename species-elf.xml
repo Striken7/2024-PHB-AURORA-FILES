@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Elf" type="Race" source="Player’s Handbook (2024)" id="ID_SPECIES_ELF2024">
+		<description>
+			<p class="flavor">Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.</p>
+			<h4>SLENDER AND GRACEFUL</h4>
+			<p>With their unearthly grace and fine features, elves appear hauntingly beautiful to humans and members of many other races. They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are more slender than humans, weighing only 100 to 145 pounds. Males and females are about the same height, and males are only marginally heavier than females.</p>
+			<p class="indent">Elves’ coloration encompasses the normal human range and also includes skin in shades of copper, bronze, and almost bluish-white, hair of green or blue, and eyes like pools of liquid gold or silver. Elves have no facial and little body hair. They favor elegant clothing in bright colors, and they enjoy simple yet lovely jewelry.</p>
+			<h4>A TIMELESS PERSPECTIVE</h4>
+			<p>Elves can live well over 700 years, giving them a broad perspective on events that might trouble the shorterlived races more deeply. They are more often amused than excited, and more likely to be curious than greedy. They tend to remain aloof and unfazed by petty happenstance. When pursuing a goal, however, whether adventuring on a mission or learning a new skill or art, elves can be focused and relentless. They are slow to make friends and enemies, and even slower to forget them. They reply to petty insults with disdain and to serious insults with vengeance.</p>
+			<p class="indent">Like the branches of a young tree, elves are flexible in the face of danger. They trust in diplomacy and compromise to resolve differences before they escalate to violence. They have been known to retreat from intrusions into their woodland homes, confident that they can simply wait the invaders out. But when the need arises, elves reveal a stern martial side, demonstrating skill with sword, bow, and strategy.</p>
+			<h4>HIDDEN WOODLAND REALMS</h4>
+			<p>Most elves dwell in small forest villages hidden among the trees. Elves hunt game, gather food, and grow vegetables, and their skill and magic allow them to support themselves without the need for clearing and plowing land. They are talented artisans, crafting finely worked clothes and art objects. Their contact with outsiders is usually limited, though a few elves make a good living by trading crafted items for metals (which they have no interest in mining).</p>
+			<p class="indent">Elves encountered outside their own lands are commonly traveling minstrels, artists, or sages. Human nobles compete for the services of elf instructors to teach swordplay or magic to their children.</p>
+			<h4>EXPLORATION AND ADVENTURE</h4>
+			<p>Elves take up adventuring out of wanderlust. Since they are so long-lived, they can enjoy centuries of exploration and discovery. They dislike the pace of human society, which is regimented from day to day but constantly changing over decades, so they find careers that let them travel freely and set their own pace. Elves also enjoy exercising their martial prowess or gaining greater magical power, and adventuring allows them to do so. Some might join with rebels fighting against oppression, and others might become champions of moral causes.</p>
+			<h4>ELF NAMES</h4>
+			<p>Elves are considered children until they declare themselves adults, some time after the hundredth birthday, and before this period they are called by child names.</p>
+			<p class="indent">On declaring adulthood, an elf selects an adult name, although those who knew him or her as a youngster might continue to use the child name. Each elf’s adult name is a unique creation, though it might reflect the names of respected individuals or other family members. Little distinction exists between male names and female names; the groupings here reflect only general tendencies. In addition, every elf bears a family name, typically a combination of other Elvish words. Some elves traveling among humans translate their family names into Common, but others retain the Elvish version.</p>
+			<p>
+			<span class="feature">Child Names:</span>Ara, Bryn, Del, Eryn, Faen, Innil. Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall<br />
+			<span class="feature">Male Adult Names:</span>Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis<br />
+			<span class="feature">Female Adult Names:</span>Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia<br />
+			<span class="feature">Family Names (Common Translations):</span>Amakiir (Gemflower), Amastacia (Starflower), Galanodel (Moonwhisper), Holimion (Diamonddew), Ilphelkiir (Gemblossom), Liadon (Silverfrond), Meliamne (Oakenheel), Nai'lo (Nightbreeze), Siannodel (Moonbrook), Xiloscient (Goldpetal)
+			</p>
+			<h4>ELF TRAITS</h4>
+			<p>Your elf character has a variety of natural abilities, the result of thousands of years of elven refinement.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Your size is Medium (about 5-6 feet tall)</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Insight, Perception or Survival skill.</p>
+			<p class="indent"><strong><em>Fey Ancestry.</em></strong> You have Advantage on saving throws you make to avoid or end the Charmed condition.</p>
+			<p class="indent"><strong><em>Trance.</em></strong> You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>
+			<p class="indent"><strong><em>Elven Lineage.</em></strong> Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage and when you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom or Charisma is your spellcasting ability for the spells you cast with this trait (you choose the ability when you first select your lineage at Level 1).</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+			<set name="names" type="child">Ara, Bryn, Del, Eryn, Faen, Innil. Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall</set>
+			<set name="names" type="family">Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Languages" supports="Common Languages" number="2" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_ELVEN_LINEAGE2024" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_KEEN_SENSES2024" />
+		</rules>
+	</element>
+	
+	<element name="Keen Senses" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_SPECIES_TRAIT_KEEN_SENSES2024">
+		<description>
+			<p>You have proficiency in the Insight, Perception or Survival skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Insight, Perception or Survival skill.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Keen Senses)" supports="Keen Senses" />
+		</rules>
+	</element>
+	<element name="Insight" type="Proficiency" source="Player’s Handbook" id="ID_PHB_FEAT_OBSERVANT2024_INSIGHT">
+		<supports>Keen Senses</supports>
+		<description>Gain proficiency in Insight.</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" requirements="!ID_PROFICIENCY_SKILL_INSIGHT" />
+		</rules>
+	</element>
+	<element name="Survival" type="Proficiency" source="Player’s Handbook" id="ID_PHB_FEAT_OBSERVANT2024_SURVIVAL">
+		<supports>Keen Senses</supports>
+		<description>Gain proficiency in Survival.</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+	<element name="Perception" type="Proficiency" source="Player’s Handbook" id="ID_PHB_FEAT_OBSERVANT2024_PERCEPTION">
+		<supports>Keen Senses</supports>
+		<description>Gain proficiency in Perception.</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	
+	<element name="Elven Lineage" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_SPECIES_TRAIT_ELVEN_LINEAGE2024">
+		<description>
+			<p>Choose a lineage from the Elven Lineages table.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Elven Lineage" supports="Elven Lineage" />
+		</rules>
+	</element>
+	<element name="High Elf" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_SPECIES_TRAIT_ELF_HIGH_ELF">
+		<supports>Elven Lineage</supports>
+		<description>
+			<p>You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list. At level 3 you learn the Detect Magic spell, and at level 5 you learn the Misty Step spell. You always have these spell prepared. You can cast these spells once without a spell slot, and you regain the ability to cast in that way when you finish a Long Rest. You can also cast these spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)</p>
+		</description>
+		<sheet alt="Elven Lineage: High Elf">
+			<description>You always have the spells granted by your lineage prepared. You can replace the cantrip with a different Wizard cantrip after a Long Rest. You can cast these spells once without a spell slot, and you regain the ability to cast in this way when you finish a Long Rest. You can also cast these spells using any spell slots you have of the appropriate level.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Spellcasting Ability (Elven Lineage)" supports="Elven Lineage Ability" />
+			<grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
+			<select type="Spell" name="Cantrip, High Elf" supports="0,(Wizard)" />
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="5"/>
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_FEY_ANCESTRY2024" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_TRANCE2024" />
+		</rules>
+	</element> 	
+	<element name="Wood Elf" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_SPECIES_TRAIT_ELF_WOOD_ELF">
+		<supports>Elven Lineage</supports>
+		<description>
+			<p>Your Speed increases to 35 feet. You also know the Druidcraft cantrip. At level 3 you learn the Longstrider spell, and at level 5 you learn the Pass without Trace spell. You always have these spell prepared. You can cast these spells once without a spell slot, and you regain the ability to cast in that way when you finish a Long Rest. You can also cast these spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)</p>
+		</description>
+		<sheet alt="Elven Lineage: Wood Elf">
+			<description>You always have the spells granted by your lineage prepared. You can cast these spells once without a spell slot, and you regain the ability to cast in this way when you finish a Long Rest. You can also cast these spells using any spell slots you have of the appropriate level.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Spellcasting Ability (Elven Lineage)" supports="Elven Lineage Ability" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" />
+			<grant type="Spell" id="ID_PHB_SPELL_LONGSTRIDER" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" level="5"/>
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_FEY_ANCESTRY2024" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_TRANCE2024" />
+		</rules>
+	</element>
+	<element name="Drow" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_SPECIES_TRAIT_ELF_DROW">
+		<supports>Elven Lineage</supports>
+		<description>
+			<p>The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip. At level 3 you learn the Faerie Fire spell, and at level 5 you learn the Darkness spell. You always have these spell prepared. You can cast these spells once without a spell slot, and you regain the ability to cast in that way when you finish a Long Rest. You can also cast these spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)</p>
+		</description>
+		<sheet alt="Elven Lineage: Drow">
+			<description>You always have the spells granted by your lineage prepared. You can cast these spells once without a spell slot, and you regain the ability to cast in this way when you finish a Long Rest. You can also cast these spells using any spell slots you have of the appropriate level.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Spellcasting Ability (Elven Lineage)" supports="Elven Lineage Ability" />
+			<grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
+			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_DROW_DARKVISION" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_FEY_ANCESTRY2024" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_TRANCE2024" />
+		</rules>
+	</element>
+	<element name="Darkvision" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_DROW_DARKVISION">
+		<description>
+			<p>You have Darkvision with a range of 120 feet.</p>
+		</description>
+		<sheet>
+			<description>You have Darkvision with a range of 120 feet.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+	
+	<element name="Intelligence" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_ELF_LINEAGE_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Elven Lineage Ability</supports>
+		<description>
+			<p>Your spellcasting ability for these spells is Intelligence.</p>
+		</description>
+		<sheet>
+			<description>Your spellcasting ability for these spells is Intelligence.</description>
+		</sheet>
+	</element>
+	<element name="Wisdom" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_ELF_LINEAGE_WISDOM">
+		<compendium display="false" />
+		<supports>Elven Lineage Ability</supports>
+		<description>
+			<p>Your spellcasting ability for these spells is Wisdom.</p>
+		</description>
+		<sheet>
+			<description>Your spellcasting ability for these spells is Wisdom.</description>
+		</sheet>
+	</element>
+	<element name="Charisma" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_ELF_LINEAGE_CHARISMA">
+		<compendium display="false" />
+		<supports>Elven Lineage Ability</supports>
+		<description>
+			<p>Your spellcasting ability for these spells is Charisma.</p>
+		</description>
+		<sheet>
+			<description>Your spellcasting ability for these spells is Charisma.</description>
+		</sheet>
+	</element>	
+	
+	<element name="Fey Ancestry" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_SPECIES_TRAIT_FEY_ANCESTRY2024">
+		<description>
+			<p>You have Advantage on saving throws you make to avoid or end the Charmed condition.</p>
+		</description>
+		<sheet>
+			<description>You have Advantage on saving throws you make to avoid or end the Charmed condition.</description>
+		</sheet>
+	</element>
+	
+	<element name="Trance" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TRANCE2024">
+		<description>
+			<p>You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>
+		</description>
+		<sheet>
+			<description>Magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation.</description>
+		</sheet>
+	</element>
+	
+</elements>
