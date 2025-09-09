@@ -13,4 +13,4 @@ Feats: All Origin, General, and Epic Boon Feats have been implemented.
 
 Classes: Monk class (and all sublcasses) has been implemented.
 
-Spells: Limited progress, mostly to spells added directly by Species, Feat, or Class.
+Spells: Limited progress, mostly to spells added directly by Species or Feats.
