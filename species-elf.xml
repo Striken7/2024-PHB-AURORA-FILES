@@ -49,7 +49,7 @@
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<select type="Language" name="Languages" supports="Common Languages" number="2" />
+			<select type="Language" name="Languages" supports="Standard Languages" number="2" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_ELVEN_LINEAGE2024" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_KEEN_SENSES2024" />
 		</rules>

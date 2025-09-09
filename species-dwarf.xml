@@ -45,7 +45,7 @@
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_DWARF_DARKVISION" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<select type="Language" name="Languages" supports="Common Languages" number="2" />
+			<select type="Language" name="Languages" supports="Standard Languages" number="2" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_DWARVEN_RESILIENCE" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_DWARVEN_TOUGHNESS" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_STONECUNNING" />

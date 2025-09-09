@@ -45,7 +45,7 @@
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<select type="Language" name="Languages" supports="Common Languages" number="2" />
+			<select type="Language" name="Languages" supports="Standard Languages" number="2" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_GNOME_CUNNING" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_GNOMISH_LINEAGE" />
 		</rules>

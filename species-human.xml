@@ -81,7 +81,7 @@
 			<select type="Racial Trait" name="Size" supports="Human Size" />
 			<stat name="innate speed" value="30" bonus="base"/>
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<select type="Language" name="Languages" supports="Common Languages" number="2" />
+			<select type="Language" name="Languages" supports="Standard Languages" number="2" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_RESOURCEFUL2024" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_SKILLFUL2024" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_VERSATILE2024" />

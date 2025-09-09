@@ -50,7 +50,7 @@
 			<stat name="innate speed" value="35" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<select type="Language" name="Languages" supports="Common Languages" number="2" />
+			<select type="Language" name="Languages" supports="Standard Languages" number="2" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_GOLIATH_GIANT_ANCESTRY" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_GOLIATH_POWERFUL_BUILD" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_GOLIATH_LARGE_FORM" level="5"/>

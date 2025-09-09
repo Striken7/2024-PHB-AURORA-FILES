@@ -44,7 +44,7 @@
 			<select type="Racial Trait" name="Size" supports="Aasimar Size" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_AASIMAR_DARKVISION" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<select type="Language" name="Languages" supports="Common Languages" number="2" />
+			<select type="Language" name="Languages" supports="Standard Languages" number="2" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_AASIMAR_CELESTIAL_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_AASIMAR_HEALING_HANDS" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_AASIMAR_LIGHT_BEARER" />

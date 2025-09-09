@@ -38,7 +38,7 @@
 			<select type="Racial Trait" name="Size" supports="Tiefling Size" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<select type="Language" name="Languages" supports="Common Languages" number="2" />
+			<select type="Language" name="Languages" supports="Standard Languages" number="2" />
 			<select type="Racial Trait" name="Fiendish Legacy" supports="Fiendish Legacy" />
 			<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
 		</rules>

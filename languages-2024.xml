@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>	
-	<!--Common Languages-->
+	<!--Standard Languages-->
 	<element name="Common Sign Language" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_SIGNLANGUAGE">
 		<compendium display="false" />
-		<supports>Common Languages</supports>
+		<supports>Standard Languages</supports>
 		<description>
 			<p>You are proficient in Common Sign Language.</p>
 		</description>
@@ -11,7 +11,7 @@
 	</element>
 	<element name="Draconic" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_DRACONIC">
 		<compendium display="false" />
-		<supports>Common Languages</supports>
+		<supports>Standard Languages</supports>
 		<description>
 			<p>You are proficient in Draconic.</p>
 		</description>
@@ -19,7 +19,7 @@
 	</element>
 	<element name="Dwarvish" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_DWARVISH">
 		<compendium display="false" />
-		<supports>Common Languages</supports>
+		<supports>Standard Languages</supports>
 		<description>
 			<p>You are proficient in Dwarvish.</p>
 		</description>
@@ -27,7 +27,7 @@
 	</element>
 	<element name="Elvish" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_ELVISH">
 		<compendium display="false" />
-		<supports>Common Languages</supports>
+		<supports>Standard Languages</supports>
 		<description>
 			<p>You are proficient in Elvish.</p>
 		</description>
@@ -35,7 +35,7 @@
 	</element>
 	<element name="Giant" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_GIANT">
 		<compendium display="false" />
-		<supports>Common Languages</supports>
+		<supports>Standard Languages</supports>
 		<description>
 			<p>You are proficient in Giant.</p>
 		</description>
@@ -43,7 +43,7 @@
 	</element>
 	<element name="Gnomish" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_GNOMISH">
 		<compendium display="false" />
-		<supports>Common Languages</supports>
+		<supports>Standard Languages</supports>
 		<description>
 			<p>You are proficient in Gnomish.</p>
 		</description>
@@ -51,7 +51,7 @@
 	</element>
 	<element name="Goblin" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_GOBLIN">
 		<compendium display="false" />
-		<supports>Common Languages</supports>
+		<supports>Standard Languages</supports>
 		<description>
 			<p>You are proficient in Goblin.</p>
 		</description>
@@ -59,7 +59,7 @@
 	</element>
 	<element name="Halfling" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_HALFLING">
 		<compendium display="false" />
-		<supports>Common Languages</supports>
+		<supports>Standard Languages</supports>
 		<description>
 			<p>You are proficient in Halfling.</p>
 		</description>
@@ -73,4 +73,62 @@
 		</description>
 		<sheet display="false" />
 	</element>	
+	
+	<!--Rare Languages-->
+	<element name="Abyssal" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_ABYSSAL">
+		<compendium display="false" />
+		<supports>Rare Languages</supports>
+		<description>
+			<p>You are proficient in Abyssal.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Celestial" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_CELESTIAL">
+		<compendium display="false" />
+		<supports>Rare Languages</supports>
+		<description>
+			<p>You are proficient in Celestial.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Infernal" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_INFERNAL">
+		<compendium display="false" />
+		<supports>Rare Languages</supports>
+		<description>
+			<p>You are proficient in Infernal.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Deep Speech" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_DEEPSPEECH">
+		<compendium display="false" />
+		<supports>Rare Languages</supports>
+		<description>
+			<p>You are proficient in Deep Speech.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Primordial" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_PRIMORDIAL">
+		<compendium display="false" />
+		<supports>Rare Languages</supports>
+		<description>
+			<p>You are proficient in Primordial.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Sylvan" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_SYLVAN">
+		<compendium display="false" />
+		<supports>Rare Languages</supports>
+		<description>
+			<p>You are proficient in Sylvan.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Undercommon" type="Language" source="Player’s Handbook" id="ID_SPECIES_TRAIT_LANGUAGE_UNDERCOMMON">
+		<compendium display="false" />
+		<supports>Rare Languages</supports>
+		<description>
+			<p>You are proficient in Undercommon.</p>
+		</description>
+		<sheet display="false" />
+	</element>
 </elements>
