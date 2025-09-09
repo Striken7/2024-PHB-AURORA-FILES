@@ -561,29 +561,4 @@
 		</rules>
 	</element>
 
-	<!--Feature Replacement Grants-->
-	<element name="Unarmored Defense Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_UNARMORED_DEFENSE" />
-	<element name="Martial Arts Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_MARTIAL_ARTS" />
-	<element name="Ki Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_FOCUS" />
-	<element name="Flurry of Blows Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_FLURRY_OF_BLOWS" />
-	<element name="Patient Defense Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_PATIENT_DEFENSE" />
-	<element name="Step of the Wind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_STEP_OF_THE_WIND" />
-	<element name="Unarmored Movement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_UNARMORED_MOVEMENT" />
-	<element name="Monk Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_MONASTIC_TRADITION" />
-	<element name="Deflect Missiles Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_DEFLECT_ATTACKS" />
-	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_ABILITY_SCORE_IMPROVEMENT" />
-	<element name="Slow Fall Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_SLOW_FALL" />
-	<element name="Extra Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_EXTRA_ATTACK" />
-	<element name="Stunning Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_STUNNING_STRIKE" />
-	<element name="Ki-Empowered Strikes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_EMPOWERED_STRIKES" />
-	<element name="Evasion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_EVASION" />
-	<element name="Stillness of Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_ACROBATIC_MOVEMENT" />
-	<element name="Purity of Body Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_HEIGHTENED_FOCUS" />
-	<element name="Tongue of the Sun and Moon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_SELF_RESTORATION" />
-	<element name="Diamond Soul Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_DEFLECT_ENERGY" />
-	<element name="Timeless Body Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_DISCIPLINED_SURVIVOR" />
-	<element name="Empty Body Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_PERFECT_FOCUS" />
-	<element name="Perfect Self Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_SUPERIOR_DEFENSE" />
-	<element name="Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_EPIC_BOON" />
-	<element name="Body and Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_BODY_AND_MIND" />
 </elements>
