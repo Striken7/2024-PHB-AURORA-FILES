@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Fighter" type="Class" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FIGHTER_2024">
+		<description>
+			<p>A human in clanging plate armor holds her shield before her as she runs toward the massed goblins. An elf behind her, clad in studded leather armor, peppers the goblins with arrows loosed from his exquisite bow. The half-orc nearby shouts orders, helping the two combatants coordinate their assault to the best advantage.</p>
+			<p class="indent">A dwarf in chain mail interposes his shield between the ogre’s club and his companion, knocking the deadly blow aside. His companion, a half-elf in scale armor, swings two scimitars in a blinding whirl as she circles the ogre, looking for a blind spot in its defenses.</p>
+			<p class="indent">A gladiator fights for sport in an arena, a master with his trident and net, skilled at toppling foes and moving them around for the crowd’s delight—and his own tactical advantage. His opponent’s sword flares with blue light an instant before she sends lightning flashing forth to smite him.</p>
+			<p class="indent">All of these heroes are fighters, perhaps the most diverse class of characters in the worlds of Dungeons &amp; Dragons. Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, and bandit kings—as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. And they are well acquainted with death, both meting it out and staring it defiantly in the face.</p>
+			<h4>WELL-ROUNDED SPECIALISTS</h4>
+			<p>Fighters learn the basics of all combat styles. Every fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, use a bow, and even trap foes in a net with some degree of skill. Likewise, a fighter is adept with shields and every form of armor. Beyond that basic degree of familiarity, each fighter specializes in a certain style of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad general ability and extensive specialization makes fighters superior combatants on battlefields and in dungeons alike.</p>
+			<h4>TRAINED FOR DANGER</h4>
+			<p>Not every member of the city watch, the village militia, or the queen’s army is a fighter. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are fighters.</p>
+			<p class="indent">Some fighters feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a fighter, not all that different from the life he or she left behind. There are greater risks, perhaps, but also much greater rewards—few fighters in the city watch have the opportunity to discover a magic flame tongue sword, for example.</p>
+			<h4>CREATING A FIGHTER</h4>
+			<p>As you build your fighter, think about two related elements of your character’s background: Where did you get your combat training, and what set you apart from the mundane warriors around you? Were you particularly ruthless? Did you get extra help from a mentor, perhaps because of your exceptional dedication? What drove you to this training in the first place? A threat to your homeland, a thirst for revenge, or a need to prove yourself might all have been factors.</p>
+			<p class="indent">You might have enjoyed formal training in a noble’s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self-taught—unpolished but well tested. Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death’s embrace.</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can make a fighter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Constitution. Second, choose the soldier background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a fighter, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d10 per fighter level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per fighter level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> All armor, shields</li>
+                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Strength, Constitution</li>
+                <li><strong>Skills:</strong> Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, and Survival</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li><i>(a)</i> chain mail or <i>(b)</i> leather armor, longbow, and 20 arrows</li>
+				<li><i>(a)</i> a martial weapon and a shield or <i>(b)</i> two martial weapons</li>
+				<li><i>(a)</i> a light crossbow and 20 bolts or <i>(b)</i> two handaxes</li>
+				<li><i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack</li>
+			</ul>
+			<h5 class="caption">THE FIGHTER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Fighting Style, Second Wind, Weapon Mastery</td></tr>
+				<tr><td> 2nd</td><td class="left">Action Surge (one use), Tactical Mind</td></tr>
+				<tr><td> 3rd</td><td class="left">Fighter Subclass</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack, Tactical Shift</td></tr>
+				<tr><td> 6th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 7th</td><td class="left">Subclass feature</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 9th</td><td class="left">Indomitable (one use), Tactical Master</td></tr>
+				<tr><td>10th</td><td class="left">Subclass feature</td></tr>
+				<tr><td>11th</td><td class="left">Two Extra Attacks</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>13th</td><td class="left">Indomitable (two uses), Studied Attacks</td></tr>
+				<tr><td>14th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>15th</td><td class="left">Subclass feature</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>17th</td><td class="left">Action Surge (two uses), Indomitable (three uses)</td></tr>
+				<tr><td>18th</td><td class="left">Subclass feature</td></tr>
+				<tr><td>19th</td><td class="left">Epic Boon</td></tr>
+				<tr><td>20th</td><td class="left">Three Extra Attacks</td></tr>
+			</table>
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_FIGHTINGSTYLE2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_WEAPONMASTERY2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_ACTIONSURGE2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_MIND2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_SUBCLASS2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_MASTER2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_ABILITYSCOREIMPROVEMENT2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_EXTRAATTACK2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_STUDIED_ATTACKS2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_INDOMITABLE2024" />
+			<div element="ID_PHB_CLASS_FEATURE_FIGHTER_EPIC_BOON2024" />
+		</description>
+		<sheet display="false">
+			<description>A master of martial combat, skilled with a variety of weapons and armor.</description>
+		</sheet>
+		<setters>
+			<set name="short">A master of martial combat, skilled with a variety of weapons and armor.</set>
+			<set name="hd">d10</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<select type="Proficiency" name="Skill Proficiency (Fighter)" supports="Skill,Fighter,2024PHB" number="2" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_FIGHTINGSTYLE2024" level="1"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024" level="1"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024_2" level="5"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_WEAPONMASTERY2024" level="1"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_ACTIONSURGE2024" level="2"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_MIND2024" level="2"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_SUBCLASS2024" level="3"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_ABILITYSCOREIMPROVEMENT2024" level="4"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_SHIFT2024" level="5"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_EXTRAATTACK2024" level="5"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_INDOMITABLE2024" level="9"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_MASTER2024" level="9"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_STUDIED_ATTACKS2024" level="13"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_EPIC_BOON2024" level="19" />
+		</rules>
+		<multiclass id="ID_PHB_MULTICLASS_FIGHTER_2024">
+			<prerequisite>Strength 13 or Dexterity 13</prerequisite>
+			<requirements>([str:13]||[dex:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, medium armor, shields, martial weapons</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Fighting Style" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_FIGHTINGSTYLE2024">
+		<description>
+			<p>You have honed your martial prowess and gain a Fighting Style feat of your choice (see "Feats"). Defense is recommended. Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Fighting Style" supports="Fighting Style" />
+		</rules>
+	</element>
+	<element name="Second Wind" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024">
+		<requirements>!ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_SHIFT2024</requirements>
+		<description>
+			<p>You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level. You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You regain 1d10+{{level:fighter}} hp. You can use this feature {{second wind:uses}} times. You regain one use when you finish a Short Rest, and all uses when you finish a Long Rest.</description>
+		</sheet>
+		<rules>
+			<stat name="second wind:uses" value="2" />
+			<stat name="second wind:uses" value="1" level="4"/>
+			<stat name="second wind:uses" value="1" level="10"/>
+		</rules>
+	</element>
+	<element name="Second Wind" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024_2">
+		<requirements>ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_SHIFT2024</requirements>
+		<description>
+			<p>You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level. You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{second wind:usage}}/Long Rest">
+			<description>You regain 1d10+{{level:fighter}} hp and you can move up to half your Speed without provoking Opportunity Attacks. You regain one use when you finish a Short Rest.</description>
+		</sheet>
+		<rules>
+			<stat name="second wind:usage" value="2" />
+			<stat name="second wind:usage" value="1" level="4"/>
+			<stat name="second wind:usage" value="1" level="10"/>
+		</rules>
+	</element>
+	<element name="Weapon Mastery" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_WEAPONMASTERY2024">
+		<description>
+			<p>Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices. When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.</p>
+		</description>
+		<sheet>
+			<description>You can use the mastery properties of {{weapon mastery:number}} kinds of Simple or Martial weapons. Whenever you finish a Long Rest, you can change one of them.</description>
+		</sheet>
+		<rules>
+			<stat name="weapon mastery:number" value="3" />
+			<stat name="weapon mastery:number" value="1" level="4"/>
+			<stat name="weapon mastery:number" value="1" level="10"/>
+			<stat name="weapon mastery:number" value="1" level="16"/>
+		</rules>
+	</element>
+	<element name="Action Surge" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_ACTIONSURGE2024">
+		<description>
+			<p>You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action. Once you use this feature, you can’t do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>On your turn, you can take one additional action, except the Magic action.</description>
+			<description usage="2/Short Rest" level="17">On your turn, you can take one additional action, except the Magic action.</description>
+		</sheet>
+	</element>
+	<element name="Tactical Mind" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_MIND2024">
+		<description>
+			<p>You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn’t expended.</p>
+		</description>
+		<sheet>
+			<description>When you fail an ability check, you spend a use of your Second Wind to roll 1d10 and add the number rolled to the ability check. If the check still fails, this use of Second Wind isn’t spent.</description>
+		</sheet>
+	</element>
+	<element name="Fighter Subclass" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_SUBCLASS2024">
+		<description>
+			<p>You gain a Fighter subclass of your choice. The Champion subclass is detailed after this class’s description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass’s features that are of your Fighter level or lower.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Fighter Subclass" supports="Fighter Subclass" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_ABILITYSCOREIMPROVEMENT2024">
+		<compendium display="false" />
+		<description>
+			<p>You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Fighter 4)" supports="Improvement Option,Fighter,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Fighter 6)" supports="Improvement Option,Fighter,6" level="6" />
+			<select type="Class Feature" name="Improvement Option (Fighter 8)" supports="Improvement Option,Fighter,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Fighter 12)" supports="Improvement Option,Fighter,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Fighter 14)" supports="Improvement Option,Fighter,14" level="14" />
+			<select type="Class Feature" name="Improvement Option (Fighter 16)" supports="Improvement Option,Fighter,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Fighter 19)" supports="Improvement Option,Fighter,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_EXTRAATTACK2024">
+		<description>
+			<p>You can attack twice instead of once whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+			<stat name="extra attack:count" value="3" level="11" bonus="extra attack" />
+			<stat name="extra attack:count" value="4" level="20" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Tactical Shift" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_SHIFT2024">
+		<description>
+			<p>Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Indomitable" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_INDOMITABLE2024">
+		<description>
+			<p>If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can’t use this feature again until you finish a Long Rest. You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17.</p>
+		</description>
+		<sheet usage="{{indomitable:usage}}/Long Rest">
+			<description>You can reroll a saving throw that you fail with a bonus +{{level:fighter}}. You must use the new roll.</description>
+		</sheet>
+		<rules>
+			<stat name="indomitable:usage" value="1" level="9" />
+			<stat name="indomitable:usage" value="1" level="13" />
+			<stat name="indomitable:usage" value="1" level="17" />
+		</rules>
+	</element>
+	<element name="Tactical Master" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_MASTER2024">
+		<description>
+			<p>When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.</p>
+		</description>
+		<sheet>
+			<description>When you attack with a weapon whose mastery property you can use, you can replace that property with Push, Sap, or Slow.</description>
+		</sheet>
+	</element>
+	<element name="Studied Attacks" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_STUDIED_ATTACKS2024">
+		<description>
+			<p>You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.</p>
+		</description>
+		<sheet>
+			<description>If you miss an attack roll against a creature, you have Advantage on your next attack roll against that creature before the end of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Epic Boon" type="Class Feature" source="Player’s Handbook" id="ID_PHB_CLASS_FEATURE_FIGHTER_EPIC_BOON2024">
+		<description>
+			<p>You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+</elements>

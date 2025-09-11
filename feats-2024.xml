@@ -3216,4 +3216,112 @@
 			<stat name="charisma" value="1" alt="Boon of Truesight" />
 		</rules>
 	</element>
+	
+	<!--Fighting Styles-->
+	<element name="Archery (Fighting Style)" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_FEATURE_FIGHTINGSTYLE_ARCHERY_2024">
+		<requirements>ID_PHB_CLASS_FIGHTER_2024||ID_PHB_CLASS_RANGER_2024||ID_PHB_CLASS_PALADIN_2024</requirements>
+		<supports>Fighting Style</supports>
+		<description>
+			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+		</description>
+		<sheet alt="Archery">
+			<description>You gain a +2 bonus to attack rolls you make with ranged weapons.</description>
+		</sheet>
+		<rules>
+			<stat name="ranged:attack" value="2" />
+		</rules>
+	</element>
+	<element name="Blind Fighting (Fighting Style)" type="Feat" source="Player’s Handbook" id="ID_WOTC_PHB_FEAT_FEATURE_FIGHTINGSTYLE_BLIND_FIGHTING_2024">
+		<requirements>ID_PHB_CLASS_FIGHTER_2024||ID_PHB_CLASS_RANGER_2024||ID_PHB_CLASS_PALADIN_2024</requirements>
+		<supports>Fighting Style</supports>
+		<description>
+			<p>You have Blindsight with a range of 10 feet.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+			<stat name="blindsight:range" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Defense (Fighting Style)" type="Feat" source="Player’s Handbook" id="ID_WOTC_PHB_FEAT_FEATURE_FIGHTINGSTYLE_DEFENSE_2024">
+		<requirements>ID_PHB_CLASS_FIGHTER_2024||ID_PHB_CLASS_RANGER_2024||ID_PHB_CLASS_PALADIN_2024</requirements>
+		<supports>Fighting Style</supports>
+		<description>
+			<p>While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="ac:misc" value="1" bonus="fighting style" equipped="[armor:any]" alt="Defense (Fighting Style)" />
+		</rules>
+	</element>
+	<element name="Dueling (Fighting Style)" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_FEATURE_FIGHTINGSTYLE_DUELING_2024">
+		<requirements>ID_PHB_CLASS_FIGHTER_2024||ID_PHB_CLASS_RANGER_2024||ID_PHB_CLASS_PALADIN_2024</requirements>
+		<supports>Fighting Style</supports>
+		<description>
+			<p>When you're holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+		</description>
+		<sheet alt="Dueling">
+			<description>When you're holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</description>
+		</sheet>
+	</element>
+	<element name="Great Weapon Fighting (Fighting Style)" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING_2024">
+		<requirements>ID_PHB_CLASS_FIGHTER_2024||ID_PHB_CLASS_RANGER_2024||ID_PHB_CLASS_PALADIN_2024</requirements>
+		<supports>Fighting Style</supports>
+		<description>
+			<p>When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.</p>
+		</description>
+		<sheet alt="Great Weapon Fighting">
+			<description>When you roll damage for an attack with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.</description>
+		</sheet>
+	</element>
+	<element name="Interception (Fighting Style)" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_FEATURE_FIGHTINGSTYLE_INTERCEPTION_2024">
+		<requirements>ID_PHB_CLASS_FIGHTER_2024||ID_PHB_CLASS_RANGER_2024||ID_PHB_CLASS_PALADIN_2024</requirements>
+		<supports>Fighting Style</supports>
+		<description>
+			<p>When a creature you can see hits another creature within 5 feet of you with an attack roll, you can take a Reaction to reduce the damage dealt to the target by 1d10 plus your Proficiency Bonus. You must be holding a Shield or a Simple or Martial weapon to use this Reaction.</p>
+		</description>
+		<sheet alt="Interception" action="Reaction">
+			<description>When a creature you can see hits another creature within 5 feet of you with an attack roll, you can reduce the damage dealt to the target by 1d10+{{proficiency}}. You must be holding a Shield or a Simple or Martial weapon.</description>
+		</sheet>
+	</element>
+	<element name="Protection (Fighting Style)" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_FEATURE_FIGHTINGSTYLE_PROTECTION_2024">
+		<requirements>ID_PHB_CLASS_FIGHTER_2024||ID_PHB_CLASS_RANGER_2024||ID_PHB_CLASS_PALADIN_2024</requirements>
+		<supports>Fighting Style</supports>
+		<description>
+			<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a Reaction to interpose your Shield if you're holding one. You impose Disadvantage on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target.</p>
+		</description>
+		<sheet alt="Protection" action="Reaction">
+			<description>When a creature you can see attacks a target other than you that is within 5 feet of you, you impose Disadvantage on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target.</description>
+		</sheet>
+	</element>
+	<element name="Thrown Weapon Fighting (Fighting Style)" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_FEATURE_FIGHTINGSTYLE_THROWN_WEAPON_FIGHTING_2024">
+		<requirements>ID_PHB_CLASS_FIGHTER_2024||ID_PHB_CLASS_RANGER_2024||ID_PHB_CLASS_PALADIN_2024</requirements>
+		<supports>Fighting Style</supports>
+		<description>
+			<p>When you hit with a ranged attack roll using a weapon that has the Thrown property, you gain a +2 bonus to the damage roll.</p>
+		</description>
+		<sheet alt="Thrown Weapon Fighting">
+			<description>When you hit with a ranged attack roll using a weapon that has the Thrown property, you gain a +2 bonus to the damage roll.</description>
+		</sheet>
+	</element>
+	<element name="Two-Weapon Fighting (Fighting Style)" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING_2024">
+		<requirements>ID_PHB_CLASS_FIGHTER_2024||ID_PHB_CLASS_RANGER_2024||ID_PHB_CLASS_PALADIN_2024</requirements>
+		<supports>Fighting Style</supports>
+		<description>
+			<p>When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage. </p>
+		</description>
+		<sheet alt="Two-Weapon Fighting">
+			<description>When you make an extra attack with a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage. </description>
+		</sheet>
+	</element>
+	<element name="Unarmed Fighting (Fighting Style)" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_FEATURE_FIGHTINGSTYLE_UNARMED_FIGHTING_2024">
+		<requirements>ID_PHB_CLASS_FIGHTER_2024||ID_PHB_CLASS_RANGER_2024||ID_PHB_CLASS_PALADIN_2024</requirements>
+		<supports>Fighting Style</supports>
+		<description>
+			<p>When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d6 plus your Strength modifier instead of the normal damage of an Unarmed Strike. If you aren't holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8. At the start of each of your turns, you can deal 1d4 Bludgeoning damage to one creature Grappled by you.</p>
+		</description>
+		<sheet alt="Unarmed Fighting">
+			<description>When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d6+{{strength:modifier}}. If you aren't holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8. At the start of each of your turns, you can deal 1d4 Bludgeoning damage to one creature Grappled by you.</description>
+		</sheet>
+	</element>
 </elements>

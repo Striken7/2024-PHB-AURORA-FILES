@@ -77,7 +77,7 @@
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT2024" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_SUBCLASS2024" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_DEFLECT_ATTACKS2024" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT2024" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_SLOW_FALL2024" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE2024" />
@@ -108,7 +108,7 @@
 			<select type="Proficiency" name="Tool Proficiency (Monk)" supports="Musical Instrument||Artisan tools" requirements="!ID_WOTC_PHB_MULTICLASS_MONK2024" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_MONK2024" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB_MULTICLASS_MONK2024" />
-			<select type="Proficiency" name="Skill Proficiency (Monk)" supports="Skill,Monk" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_MONK2024" />
+			<select type="Proficiency" name="Skill Proficiency (Monk)" supports="Skill,Monk,2024PHB" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_MONK2024" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE2024" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS2024" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS2024_2" level="1" />
@@ -119,7 +119,7 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_SUBCLASS2024" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_DEFLECT_ATTACKS2024" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_DEFLECT_ATTACKS2024_2" level="3" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT2024" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_SLOW_FALL2024" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE2024" level="5" />
@@ -143,10 +143,6 @@
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
 			</rules>
 		</multiclass>
 	</element>
@@ -418,7 +414,7 @@
 			<stat name="monk:deflect missiles dc" value="proficiency" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK">
+	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT2024">
 		<compendium display="false" />
 		<description>
 			<p>You gain the Ability Score Improvement Feat or another Feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16.</p>
