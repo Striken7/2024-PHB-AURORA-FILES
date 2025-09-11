@@ -5,16 +5,18 @@ Note: Files are being tested using other 2024 PHB content. No testing has been d
 
 Implementation Status:
 
-Species: All PHB species have been implemented.
+Species: All species have been implemented.
 
-Feats: All Feats have been implemented.
+Feats: All feats have been implemented.
 
-Languages: All Standard and Rare Languages implemented.
+Languages: All Languages have been implemented.
 
 Backgrounds: Only the Custom Background option has been implemented.
 
-Classes:
-Monk class (and all sublcasses) has been implemented.
-Fighter class (no subclasses) has been implemented.
+Spells: Limited progress, mostly to the spells added by Species or Feats.
 
-Spells: Limited progress, mostly to spells added directly by Species or Feats.
+Classes:
+
+Monk class (and all sublcasses) has been implemented.
+
+Fighter class (no subclasses) has been implemented.
