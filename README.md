@@ -7,10 +7,14 @@ Implementation Status:
 
 Species: All PHB species have been implemented.
 
+Feats: All Feats have been implemented.
+
+Languages: All Standard and Rare Languages implemented.
+
 Backgrounds: Only the Custom Background option has been implemented.
 
-Feats: All Origin, General, and Epic Boon Feats have been implemented.
-
-Classes: Monk class (and all sublcasses) has been implemented.
+Classes:
+Monk class (and all sublcasses) has been implemented.
+Fighter class (no subclasses) has been implemented.
 
 Spells: Limited progress, mostly to spells added directly by Species or Feats.
