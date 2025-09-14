@@ -560,7 +560,7 @@
 		</sheet>
 		<rules>
 			<select type="Feat Feature" name="Ability Score Increase (Fey Touched)" supports="Fey Touched 2024" />
-			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_MISTY_STEP" />
 			<select type="Spell" name="Spell, Fey Touched" supports="1,(Divination||Enchantment)" />
 		</rules>
 	</element>
@@ -1668,7 +1668,7 @@
 		</sheet>
 		<rules>
 			<select type="Feat Feature" name="Ability Score Increase (Shadow Touched)" supports="Shadow Touched 2024" />
-			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_INVISIBILITY" />
 			<select type="Spell" name="Spell, Shadow Touched" supports="1,(Illusion||Necromancy)" />
 		</rules>
 	</element>
@@ -2060,7 +2060,7 @@
 		<sheet display="false" />
 		<rules>
 			<select type="Feat Feature" name="Ability Score Increase, Telekinetic" supports="Telekinetic" />
-			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_MAGE_HAND" />
 			<stat name="telekinetic:mage hand:dc" value="8" />
 			<stat name="telekinetic:mage hand:dc" value="proficiency" />
 		</rules>
@@ -2129,7 +2129,7 @@
 		<sheet display="false" />
 		<rules>
 			<select type="Feat Feature" name="Ability Score Increase, Telepathic" supports="Telepathic" />
-			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
+			<grant type="Spell" id="ID_PHB_SPELL_2024_DETECT_THOUGHTS" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Feat Feature" source="Player's Handbook" id="ID_WOTC_TCOE_FEAT_FEATURE_TELEPATHIC_INTELLIGENCE">
@@ -2710,8 +2710,8 @@
 				<li>Fortified Health: Your Hit Point maximum increases by 40. In addition, whenever you regain Hit Points, you can regain additional Hit Points equal to your Constitution modifier. Once you’ve regained these additional Hit Points, you can’t do so again until the start of your next turn.</li>
 			</ul>
 		</description>
-		<sheet>
-			<description>Your Hit Point maximum increases by 40. Whenever you regain Hit Points, you can regain additional {{constitution:modifier}} Hit Points. Once you’ve used this Feat, you can’t do so again until the start of your next turn.</description>
+		<sheet usage="1/Turn">
+			<description>Whenever you regain Hit Points, you can regain additional {{constitution:modifier}} Hit Points.</description>
 		</sheet>
 		<rules>
 			<select type="Feat Feature" name="Ability Score Increase (Fortitude)" supports="Fortitude Attribute" />

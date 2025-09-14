@@ -40,7 +40,7 @@
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<select type="Language" name="Languages" supports="Standard Languages" number="2" />
 			<select type="Racial Trait" name="Fiendish Legacy" supports="Fiendish Legacy" />
-			<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_THAUMATURGY" />
 		</rules>
 	</element>
 	
@@ -75,9 +75,9 @@
 		</sheet>
 		<rules>
 			<select type="Racial Trait" name="Spellcasting Ability (Fiendish Legacy)" supports="Fiendish Legacy Ability" />
-			<grant type="Spell" id="ID_PHB_SPELL_POISON_SPRAY" />
-			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_SICKNESS" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5"/>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_POISON_SPRAY" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_RAY_OF_SICKNESS" level="3"/>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_HOLD_PERSON" level="5"/>
 		</rules>
 	</element>
 	<element name="Chthonic" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TIEFLING_CHTHONIC">
@@ -90,9 +90,9 @@
 		</sheet>
 		<rules>
 			<select type="Racial Trait" name="Spellcasting Ability (Fiendish Legacy)" supports="Fiendish Legacy Ability" />
-			<grant type="Spell" id="ID_PHB_SPELL_CHILL_TOUCH" />
-			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT" level="5"/>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_CHILL_TOUCH" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_FALSE_LIFE" level="3"/>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_RAY_OF_ENFEEBLEMENT" level="5"/>
 		</rules>
 	</element>
 	<element name="Infernal" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_TIEFLING_INFERNAL">
@@ -105,9 +105,9 @@
 		</sheet>
 		<rules>
 			<select type="Racial Trait" name="Spellcasting Ability (Fiendish Legacy)" supports="Fiendish Legacy Ability" />
-			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
-			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5"/>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_FIRE_BOLT" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_HELLISH_REBUKE" level="3"/>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_DARKNESS" level="5"/>
 		</rules>
 	</element>
 	

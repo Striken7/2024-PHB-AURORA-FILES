@@ -36,14 +36,16 @@
 		<description>
 			<p>At 6th level, you gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained). You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
 		</description>
-		<sheet action="Bonus Action" >
-			<description>Regain 1d{{martial arts:dice}}+{{wisdom:modifier}} Hit Points. You can use this feature {{wisdom:modifier}} times until you finish a Long Rest.</description>
+		<sheet action="Bonus Action" usage="{{wholeness:uses}}/Long Rest">
+			<description>Regain 1d{{martial arts:dice}}+{{wisdom:modifier}} Hit Points.</description>
 		</sheet>
 		<rules>
 			<stat name="martial arts:dice" value="6" bonus="martial arts" />
 			<stat name="martial arts:dice" value="8" bonus="martial arts" level="5" />
 			<stat name="martial arts:dice" value="10" bonus="martial arts" level="11" />
 			<stat name="martial arts:dice" value="12" bonus="martial arts" level="17" />
+			<stat name="wholeness:uses" value="1" bonus="base" />
+			<stat name="wholeness:uses" value="wisdom:modifier" bonus="base" />
 		</rules>
 	</element>
 	<element name="Fleet Step" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_OPEN_HAND_FLEET_STEP">

@@ -39,7 +39,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ELEMENTALISM" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_ELEMENTALISM" />
 		</rules>
 	</element>
 	<element name="Elemental Burst" type="Archetype Feature" source="Player’s Handbook" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_THE_ELEMENTS_ELEMENTAL_BURST">

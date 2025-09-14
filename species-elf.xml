@@ -110,10 +110,10 @@
 		</sheet>
 		<rules>
 			<select type="Racial Trait" name="Spellcasting Ability (Elven Lineage)" supports="Elven Lineage Ability" />
-			<grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_PRESTIDIGITATION" />
 			<select type="Spell" name="Cantrip, High Elf" supports="0,(Wizard)" />
-			<grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="5"/>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_DETECT_MAGIC" level="3"/>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_MISTY_STEP" level="5"/>
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_FEY_ANCESTRY2024" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_TRANCE2024" />
 		</rules>
@@ -129,9 +129,9 @@
 		<rules>
 			<select type="Racial Trait" name="Spellcasting Ability (Elven Lineage)" supports="Elven Lineage Ability" />
 			<stat name="innate speed" value="35" bonus="base" />
-			<grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" />
-			<grant type="Spell" id="ID_PHB_SPELL_LONGSTRIDER" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" level="5"/>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_DRUIDCRAFT" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_LONGSTRIDER" level="3"/>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_PASS_WITHOUT_TRACE" level="5"/>
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_FEY_ANCESTRY2024" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_TRANCE2024" />
 		</rules>
@@ -146,9 +146,9 @@
 		</sheet>
 		<rules>
 			<select type="Racial Trait" name="Spellcasting Ability (Elven Lineage)" supports="Elven Lineage Ability" />
-			<grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
-			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="3" />
-			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_DANCING_LIGHTS" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_FAERIE_FIRE" level="3" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_DARKNESS" level="5" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_DROW_DARKVISION" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_FEY_ANCESTRY2024" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_TRANCE2024" />

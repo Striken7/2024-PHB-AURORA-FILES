@@ -80,8 +80,8 @@
 		</sheet>
 		<rules>
 			<select type="Racial Trait" name="Spellcasting Ability (Gnomish Lineage)" supports="Gnomish Lineage Ability" />
-			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
-			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_MINOR_ILLUSION" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_SPEAK_WITH_ANIMALS" />
 		</rules>
 	</element>
 
@@ -95,8 +95,8 @@
 		</sheet>
 		<rules>
 			<select type="Racial Trait" name="Spellcasting Ability (Gnomish Lineage)" supports="Gnomish Lineage Ability" />
-			<grant type="Spell" id="ID_PHB_SPELL_MENDING" />
-			<grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_MENDING" />
+			<grant type="Spell" id="ID_PHB_2024_SPELL_PRESTIDIGITATION" />
 		</rules>
 	</element>
 

@@ -71,9 +71,6 @@
 		<sheet>
 			<description>You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</description>
 		</sheet>
-		<!--<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
-		</rules>-->
 	</element>
 	
 	<element name="Dwarven Toughness" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_SPECIES_TRAIT_DWARVEN_TOUGHNESS">
