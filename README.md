@@ -9,7 +9,7 @@ Species: All species have been implemented.
 
 Feats: All feats have been implemented.
 
-Languages: All Languages have been implemented.
+Languages: All languages have been implemented.
 
 Backgrounds: Only the Custom Background option has been implemented.
 
