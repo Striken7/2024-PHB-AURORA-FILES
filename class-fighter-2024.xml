@@ -97,7 +97,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
-			<select type="Proficiency" name="Skill Proficiency (Fighter)" supports="Skill,Fighter,2024PHB" number="2" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<select type="Proficiency" name="Skill Proficiency (Fighter)" supports="Skill,2024Fighter" number="2" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
 			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_FIGHTINGSTYLE2024" level="1"/>
 			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024" level="1"/>
 			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024_2" level="5"/>
