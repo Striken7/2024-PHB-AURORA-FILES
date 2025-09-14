@@ -17,6 +17,6 @@ Spells: Limited progress, mostly to the spells added by Species or Feats.
 
 Classes:
 
-Monk class (and all sublcasses) has been implemented.
+Monk class (all sublcasses) has been implemented.
 
-Fighter class (no subclasses) has been implemented.
+Fighter class (all subclasses) has been implemented.
