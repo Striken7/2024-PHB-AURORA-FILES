@@ -11,7 +11,7 @@ Feats: All feats have been implemented.
 
 Languages: All languages have been implemented.
 
-Backgrounds: Only the Custom Background option has been implemented.
+Backgrounds: Only a Custom Background option has been implemented meeting the 2024 Background rules.
 
 Spells: Limited progress, mostly to the spells added by Species or Feats.
 
