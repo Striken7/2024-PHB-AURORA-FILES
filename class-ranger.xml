@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Ranger" type="Class" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_RANGER_2024">
+		<description>
+			<p class="flavor">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</p>			
+			<p>Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.</p>
+			<p class="indent">After tumbling away from a cone of freezing air, an elf finds her feet and draws back her bow to loose an arrow at the white dragon. Shrugging off the wave of fear that emanates from the dragon like the cold of its breath, she sends one arrow after another to find the gaps between the dragon’s thick scales.</p>
+			<p class="indent">Holding his hand high, a half-elf whistles to the hawk that circles high above him, calling the bird back to his side. Whispering instructions in Elvish, he points to the owlbear he’s been tracking and sends the hawk to distract the creature while he readies his bow.</p>
+			<p class="indent">Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.</p>
+			<h4>DEADLY HUNTERS</h4>
+			<p>Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization—humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.</p>
+			<p class="indent">Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature’s power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger’s talents and abilities are honed with deadly focus on the grim task of protecting the borderlands.</p>
+			<h4>INDEPENDENT ADVENTURERS</h4>
+			<p>Though a ranger might make a living as a hunter, a guide, or a tracker, a ranger’s true calling is to defend the outskirts of civilization from the ravages of monsters and humanoid hordes that press in from the wild. In some places, rangers gather in secretive orders or join forces with druidic circles. Many rangers, though, are independent almost to a fault, knowing that, when a dragon or a band of orcs attacks, a ranger might be the first—and possibly the last—line of defense.</p>
+			<p class="indent">This fierce independence makes rangers well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, rangers respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization’s foes are worth any extra burden. Coddled city folk might not know how to feed themselves or find fresh water in the wild, but they make up for it in other ways.</p>
+			<h4>CREATING A RANGER</h4>
+			<p>As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger’s ways? Did you leave your apprenticeship, or was your mentor slain— perhaps by the same kind of monster that became your favored enemy? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.</p>
+			<p class="indent">What’s the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can make a ranger quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. (Some rangers who focus on two-weapon fighting make Strength higher than Dexterity.) Second, choose the outlander background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a ranger, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d10 per ranger level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per ranger level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, Medium armor, Shields</li>
+                <li><strong>Weapons:</strong> Simple weapons, Martial weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Strength, Dexterity</li>
+                <li><strong>Skills:</strong> Choose three skills from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li> <i>(a)</i> scale mail or <i>(b)</i> leather armor </li>
+				<li> <i>(a)</i> two shortswords or <i>(b)</i> two simple melee weapons </li>
+				<li> <i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack </li>
+				<li>A longbow and a quiver of 20 arrows</li>
+			</ul>
+			<h5 class="caption">THE RANGER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Spellcasting, Favored Enemy, Weapon Mastery</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Deft Explorer, Fighting Style</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Ranger Subclass</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Roving</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Subclass feature</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">Expertise</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Tireless</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">Subclass feature</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">Relentless Hunter</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Nature's Veil</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Subclass feature</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">Precise Hunter</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Feral Senses</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Epic Boon</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>20th</td><td class="left">Foe Slayer</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+			</table>
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_SPELLCASTING" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_WEAPONMASTERY" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_DEFT_EXPLORER" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_FIGHTING_STYLE" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_SUBCLASS" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_ASI" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_EXTRA_ATTACK" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_ROVING" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_EXPERTISE" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_TIRELESS" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_RELENTLESS_HUNTER" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_NATURES_VEIL" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_PRECISE_HUNTER" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_FERAL_SENSES" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_EPIC_BOON" />
+			<div element="ID_PHB_CLASS_FEATURE_RANGER_FOE_SLAYER" />
+		</description>
+		<sheet display="false">
+			<description>A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</description>
+		</sheet>
+		<setters>
+			<set name="short">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</set>
+			<set name="hd">d10</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_PHB_MULTICLASS_RANGER" />
+			<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="3" requirements="!ID_PHB_MULTICLASS_RANGER" />
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_SPELLCASTING" level="1"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY" level="1"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_WEAPONMASTERY" level="1"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_DEFT_EXPLORER" level="2"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_FIGHTING_STYLE" level="2"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_SUBCLASS" level="3"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_ASI" level="4"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_EXTRA_ATTACK" level="5"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_ROVING" level="6"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_EXPERTISE" level="9"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_TIRELESS" level="10"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_RELENTLESS_HUNTER" level="13"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_NATURES_VEIL" level="14"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_PRECISE_HUNTER" level="17"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_FERAL_SENSES" level="18"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_EPIC_BOON" level="19"/>
+			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_RANGER_FOE_SLAYER" level="20"/>
+		</rules>
+		<multiclass id="ID_PHB_MULTICLASS_RANGER">
+			<prerequisite>Dexterity 13 and Wisdom 13</prerequisite>
+			<requirements>([dex:13],[wis:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, Medium armor, Shields, Martial weapons, one skill from the class’s skill list</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+				<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="1"/>
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_SPELLCASTING">
+		<description>
+			<p>You have learned to use the magical essence of nature to cast spells, much as a druid does.</p>
+			<p><b><i>Spell Slots.</i></b> The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p>
+			<p><b><i>Prepared Spells of Level 1+.</i></b> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. Cure Wounds and Ensnaring Strike are recommended. The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination. If another Ranger feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.</p>
+			<p><b><i>Changing Your Prepared Spells.</i></b> Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.</p>
+			<p><b><i>Spellcasting Ability.</i></b> Wisdom is your spellcasting ability for your Ranger spells.</p>
+			<p><b><i>Spellcasting Focus.</i></b> You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+		</description>
+		<sheet display="false">
+			<description>You have learned to use the magical essence of nature to cast spells, much as a druid does.</description>
+		</sheet>
+		<spellcasting name="Ranger" ability="Wisdom" allowReplace="true">
+			<list>Ranger</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<stat name="ranger:spellcasting:slots:1" value="2" level="1" />
+			<stat name="ranger:spellcasting:slots:1" value="1" level="3" />
+			<stat name="ranger:spellcasting:slots:1" value="1" level="5" />
+			<stat name="ranger:spellcasting:slots:2" value="2" level="5" />
+			<stat name="ranger:spellcasting:slots:2" value="1" level="7" />
+			<stat name="ranger:spellcasting:slots:3" value="2" level="9" />
+			<stat name="ranger:spellcasting:slots:3" value="1" level="11" />
+			<stat name="ranger:spellcasting:slots:4" value="1" level="13" />
+			<stat name="ranger:spellcasting:slots:4" value="1" level="15" />
+			<stat name="ranger:spellcasting:slots:4" value="1" level="17" />
+			<stat name="ranger:spellcasting:slots:5" value="1" level="17" />
+			<stat name="ranger:spellcasting:slots:5" value="1" level="19" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Ranger"/>
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" number="2" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Ranger" />
+		</rules>
+	</element>
+	<element name="Favored Enemy" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY">
+		<description>
+			<p>You always have the Hunter’s Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest. The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p>
+		</description>
+		<sheet>
+			<description>You always have the Hunter’s Mark spell prepared. You can cast it {{hunters mark:uses}} times without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_2024_SPELL_HUNTERS_MARK" />
+			<stat name="hunters mark:uses" value="2" />
+			<stat name="hunters mark:uses" value="1" level="5"/>
+			<stat name="hunters mark:uses" value="1" level="9"/>
+			<stat name="hunters mark:uses" value="1" level="13"/>
+			<stat name="hunters mark:uses" value="1" level="17"/>
+		</rules>
+	</element>
+	<element name="Weapon Mastery" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_WEAPONMASTERY">
+		<description>
+			<p>Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords. Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.</p>
+		</description>
+		<sheet>
+			<description>You can use the mastery properties of 2 kinds of weapons with which you have proficiency. Whenever you finish a Long Rest, you can change one of them.</description>
+		</sheet>
+	</element>
+	<element name="Deft Explorer" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_DEFT_EXPLORER">
+		<description>
+			<p>Thanks to your travels, you gain the following benefits.</p>
+			<p><b><i>Expertise.</i></b> Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.</p>
+			<p><b><i>Languages.</i></b> You know two languages of your choice from the language tables in "Character Creation".</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Expertise (Deft Explorer)" supports="Expertise, Skill" />
+			<select type="Language" name="Languages (Deft Explorer)" supports="Standard Languages,Rare Languages" number="2" />
+		</rules>
+	</element>
+	<element name="Fighting Style" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_FIGHTING_STYLE">
+		<description>
+			<p>You gain a Fighting Style feat of your choice (see "Feats"). Instead of choosing one of those feats, you can choose the option below.</p>
+			
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Fighting Style" supports="Fighting Style" />
+		</rules>
+	</element>
+	<element name="Ranger Subclass" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_SUBCLASS">
+		<description>
+			<p>You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class’s description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass’s features that are of your Ranger level or lower.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Ranger Subclass" supports="Ranger Subclass" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_ASI">
+		<compendium display="false" />
+		<description>
+			<p>You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Ranger 4)" supports="Improvement Option,Ranger,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Ranger 8)" supports="Improvement Option,Ranger,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Ranger 12)" supports="Improvement Option,Ranger,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Ranger 16)" supports="Improvement Option,Ranger,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Ranger 19)" supports="Improvement Option,Ranger,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Roving" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_ROVING">
+		<description>
+			<p>Your Speed increases by 10 feet while you aren’t wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="speed" value="10" bonus="armor" equipped="![armor:heavy]"/>
+			<stat name="speed:climb" value="speed" bonus="armor" equipped="![armor:heavy]"/>
+			<stat name="speed:swim" value="speed" bonus="armor" equipped="![armor:heavy]"/>
+		</rules>
+	</element>
+	<element name="Expertise" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_EXPERTISE">
+		<description>
+			<p>Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Expertise (Expertise)" supports="Expertise, Skill" number="2" />
+		</rules>
+	</element>
+	<element name="Tireless" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_TIRELESS">
+		<description>
+			<p>Primal forces now help fuel you on your journeys, granting you the following benefits.</p>
+			<p><b><i>Temporary Hit Points.</i></b> As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+			<p><b><i>Decrease Exhaustion.</i></b> Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.</p>
+		</description>
+		<sheet usage="{{tireless:uses}}/Long Rest">
+			<description>Your Exhaustion level decreases by 1 after a Short Rest. As a Magic action, you can give yourself 1d8+{{tireless:hp}} Temporary Hit Points.</description>
+		</sheet>
+		<rules>
+			<stat name="tireless:hp" value="1" />
+			<stat name="tireless:hp" value="wisdom:modifier" />
+			<stat name="tireless:uses" value="1" />
+			<stat name="tireless:uses" value="wisdom:modifier" />
+		</rules>
+	</element>
+	<element name="Relentless Hunter" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_RELENTLESS_HUNTER">
+		<description>
+			<p>Taking damage can’t break your Concentration on Hunter’s Mark.</p>
+		</description>
+		<sheet>
+			<description>Taking damage can’t break your Concentration on Hunter’s Mark.</description>
+		</sheet>
+	</element>
+	<element name="Nature's Veil" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_NATURES_VEIL">
+		<description>
+			<p>You invoke spirits of nature to magically hide yourself. As a Bonus Action, you can give yourself the Invisible condition until the end of your next turn. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{natures veil:uses}}/Long Rest">
+			<description>You can use a Bonus Action to give yourself the Invisible condition until the end of your next turn.</description>
+		</sheet>
+		<rules>
+			<stat name="natures veil:uses" value="1" />
+			<stat name="natures veil:uses" value="wisdom:modifier" />
+		</rules>
+	</element>
+	<element name="Precise Hunter" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_PRECISE_HUNTER">
+		<description>
+			<p>You have Advantage on attack rolls against the creature currently marked by your Hunter’s Mark.</p>
+		</description>
+		<sheet>
+			<description>You have Advantage on attack rolls against the creature currently marked by your Hunter’s Mark.</description>
+		</sheet>
+	</element>
+	<element name="Feral Senses" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_FERAL_SENSES">
+		<description>
+			<p>Your connection to the forces of nature grants you Blindsight with a range of 30 feet.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+			<stat name="blindsight:range" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Epic Boon" type="Class Feature" source="Player’s Handbook" id="ID_PHB_CLASS_FEATURE_RANGER_EPIC_BOON">
+		<description>
+			<p>You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Foe Slayer" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_RANGER_FOE_SLAYER">
+		<description>
+			<p>The damage die of your Hunter’s Mark is a d10 rather than a d6.</p>
+		</description>
+		<sheet>
+			<description>The damage die of your Hunter’s Mark is a d10 rather than a d6.</description>
+		</sheet>
+	</element>
+</elements>
