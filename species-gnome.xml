@@ -43,7 +43,7 @@
 		<rules>
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
-			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_GNOME_DARKVISION" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<select type="Language" name="Languages" supports="Standard Languages" number="2" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_GNOME_CUNNING" />
@@ -51,6 +51,18 @@
 		</rules>
 	</element>
 
+	<element name="Darkvision" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_GNOME_DARKVISION">
+		<description>
+			<p>You have Darkvision with a range of 60 feet.</p>
+		</description>
+		<sheet>
+			<description>You have Darkvision with a range of 60 feet.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+	
 	<element name="Gnome Cunning" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_SPECIES_TRAIT_GNOME_CUNNING">
 		<description>
 			<p>You have advantage on Intelligence, Wisdom, and Charisma saving throws.</p>

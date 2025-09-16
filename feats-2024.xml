@@ -1950,15 +1950,10 @@
 			</ul>
 		</description>
 		<sheet alt="Speedy">
-			<description>When you take the Dash action on your turn, Difficult Terrain doesn’t cost you extra movement for the rest of that turn. 
-			Opportunity attacks have Disadvantage against you.</description>
+			<description>When you take the Dash action on your turn, Difficult Terrain doesn’t cost you extra movement for the rest of that turn. Opportunity attacks have Disadvantage against you.</description>
 		</sheet>
 		<rules>
 			<stat name="innate speed:misc" value="10" />
-			<stat name="innate speed:climb:misc" value="10" requirements="[innate speed:climb:1]" />
-			<stat name="innate speed:fly:misc" value="10" requirements="[innate speed:fly:1]" />
-			<stat name="innate speed:swim:misc" value="10" requirements="[innate speed:swim:1]" />
-			<stat name="innate speed:burrow:misc" value="10" requirements="[innate speed:burrow:1]" />
 			<select type="Feat Feature" name="Ability Score Increase (Speedy)" supports="Speedy Attribute" />
 		</rules>
 	</element>

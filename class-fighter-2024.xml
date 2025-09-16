@@ -97,10 +97,9 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
-			<select type="Proficiency" name="Skill Proficiency (Fighter)" supports="Skill,2024Fighter" number="2" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
+			<select type="Proficiency" name="Skill Proficiency (Fighter)" supports="Skill,2024Fighter||Fighter" number="2" requirements="!ID_PHB_MULTICLASS_FIGHTER_2024"/>
 			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_FIGHTINGSTYLE2024" level="1"/>
 			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024" level="1"/>
-			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024_2" level="5"/>
 			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_WEAPONMASTERY2024" level="1"/>
 			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_ACTIONSURGE2024" level="2"/>
 			<grant type="Class Feature" id="ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_MIND2024" level="2"/>
@@ -138,31 +137,18 @@
 		</rules>
 	</element>
 	<element name="Second Wind" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024">
-		<requirements>!ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_SHIFT2024</requirements>
 		<description>
 			<p>You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level. You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.</p>
 		</description>
-		<sheet action="Bonus Action">
-			<description>You regain 1d10+{{level:fighter}} hp. You can use this feature {{second wind:uses}} times. You regain one use when you finish a Short Rest, and all uses when you finish a Long Rest.</description>
+		<sheet action="Bonus Action" usage="{{second wind:uses}}/Long Rest">
+			<description>You regain 1d10+{{level:fighter}} hp. You regain one use when you finish a Short Rest.</description>
+			<description level="5">You regain 1d10+{{level:fighter}} hp and you can move up to half your Speed without provoking Opportunity Attacks. You regain one use when you finish a Short Rest.</description>
+			level="18"
 		</sheet>
 		<rules>
 			<stat name="second wind:uses" value="2" />
 			<stat name="second wind:uses" value="1" level="4"/>
 			<stat name="second wind:uses" value="1" level="10"/>
-		</rules>
-	</element>
-	<element name="Second Wind" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_SECONDWIND2024_2">
-		<requirements>ID_PHB_CLASS_FEATURE_FIGHTER_TACTICAL_SHIFT2024</requirements>
-		<description>
-			<p>You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level. You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.</p>
-		</description>
-		<sheet action="Bonus Action" usage="{{second wind:usage}}/Long Rest">
-			<description>You regain 1d10+{{level:fighter}} hp and you can move up to half your Speed without provoking Opportunity Attacks. You regain one use when you finish a Short Rest.</description>
-		</sheet>
-		<rules>
-			<stat name="second wind:usage" value="2" />
-			<stat name="second wind:usage" value="1" level="4"/>
-			<stat name="second wind:usage" value="1" level="10"/>
 		</rules>
 	</element>
 	<element name="Weapon Mastery" type="Class Feature" source="Player’s Handbook (2024)" id="ID_PHB_CLASS_FEATURE_FIGHTER_WEAPONMASTERY2024">

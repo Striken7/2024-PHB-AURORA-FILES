@@ -178,7 +178,7 @@
 		<supports>Sorcerer, Wizard, Artificer</supports>
 		<description>
 			<p>You gain 2d4 + 4 Temporary Hit Points.</p>
-			<p class="indent"><b><i>At Higher Levels.</i></b> You gain 5 additional Temporary Hit Points for each spell slot level above 1.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> You gain 5 additional Temporary Hit Points for each spell slot level above 1.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -220,7 +220,7 @@
 		<supports>Warlock, Spell Saving Throw</supports>
 		<description>
 			<p>The creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.</p>
-			<p class="indent"><b><i>At Higher Levels.</i></b> The damage increases by 1d10 for each spell slot level above 1.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The damage increases by 1d10 for each spell slot level above 1.</p>
 		</description>
 		<setters>
 			<set name="keywords">fire</set>
@@ -241,7 +241,7 @@
 		<supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>Choose a Humanoid that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p>
-			<p class="indent"><b><i>At Higher Levels.</i></b> You can target one additional Humanoid for each spell slot level above 2.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> You can target one additional Humanoid for each spell slot level above 2.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -258,11 +258,32 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+	<element name="Hunter’s Mark" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_HUNTERS_MARK">
+		<supports>None</supports>
+		<description>
+			<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it. If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Divination</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">90 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 	<element name="Invisibility" type="Spell" source="Player’s Handbook (2024)" id="ID_PHB_2024_SPELL_INVISIBILITY">
 		<supports>Bard, Sorcerer, Warlock, Wizard, Artificer</supports>
 		<description>
 			<p>A creature you touch has the Invisible condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
-			<p class="indent"><b><i>At Higher Levels.</i></b> You can target one additional creature for each spell slot level above 2.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> You can target one additional creature for each spell slot level above 2.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -303,7 +324,7 @@
 		<supports>Bard, Druid, Ranger, Wizard, Artificer</supports>
 		<description>
 			<p>You touch a creature. The target’s Speed increases by 10 feet until the spell ends.</p>
-			<p class="indent"><b><i>At Higher Levels.</i></b> You can target one additional creature for each spell slot level above 1.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> You can target one additional creature for each spell slot level above 1.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -496,7 +517,7 @@
 		<supports>Sorcerer, Wizard, Ranged, Spell Attack</supports>
 		<description>
 			<p>You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the Poisoned condition until the end of your next turn.</p>
-			<p class="indent"><b><i>At Higher Levels.</i></b> The damage increases by 1d8 for each spell slot level above 1.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The damage increases by 1d8 for each spell slot level above 1.</p>
 		</description>
 		<setters>
 			<set name="keywords">poison</set>

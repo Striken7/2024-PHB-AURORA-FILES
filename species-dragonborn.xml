@@ -42,11 +42,23 @@
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<select type="Language" name="Languages" supports="Standard Languages" number="2" />
-			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_DRAGONBORN_DARKVISION" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_DRACONIC_ANCESTRY" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_BREATH_WEAPON" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_DAMAGE_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_SPECIES_TRAIT_DRACONIC_FLIGHT" level="5" />
+		</rules>
+	</element>
+	
+	<element name="Darkvision" type="Racial Trait" source="Player’s Handbook" id="ID_SPECIES_TRAIT_DRAGONBORN_DARKVISION">
+		<description>
+			<p>You have Darkvision with a range of 60 feet.</p>
+		</description>
+		<sheet>
+			<description>You have Darkvision with a range of 60 feet.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
 		</rules>
 	</element>
 	

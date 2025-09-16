@@ -13,7 +13,6 @@
 		<rules>
 			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_ARTS" level="3"/>
 			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_STEP" level="6" />
-			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_STEP_2" level="6" />
 			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_IMPROVED_SHADOW_STEP" level="11"/>
 			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_CLOAK_OF_SHADOWS" level="17"/>
 		</rules>
@@ -36,27 +35,18 @@
 			<grant type="Archetype Feature" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_DARKVISION" requirements="ID_VISION_DARKVISION"/>
 		</rules>
 	</element>
-	<element name="Darkvision" type="Racial Trait" source="Player’s Handbook" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_DARKVISION">
+	<element name="Darkvision" type="Archetype Feature" source="Player’s Handbook" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_DARKVISION">
 		<sheet>
-			<description>You have Darkvision with a range of 120 feet.</description>
+			<description>You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</description>
 		</sheet>
 	</element>
 	<element name="Shadow Step" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_STEP">
-		<requirements>!ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_IMPROVED_SHADOW_STEP</requirements>
 		<description>
 			<p>At 6th level, you gain the ability to step from one shadow into another. While entirely within Dim Light or Darkness, you can use a Bonus Action to teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You then have Advantage on the next melee attack you make before the end of the turn.</p>
 		</description>
 		<sheet action="Bonus Action">
 			<description>While entirely within Dim Light or Darkness, you can teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You have Advantage on the next melee attack you make before the end of the turn.</description>
-		</sheet>
-	</element>
-	<element name="Shadow Step" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_SHADOW_STEP_2">
-		<requirements>ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_IMPROVED_SHADOW_STEP</requirements>
-		<description>
-			<p>At 11th level, you can draw on your Shadowfell connection to empower your teleportation. When you use your Shadow Step, you can spend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after the teleportation.</p>
-		</description>
-		<sheet action="Bonus Action">
-			<description>While entirely within Dim Light or Darkness, you can teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You have Advantage on the next melee attack you make before the end of the turn. You can spend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness, and you can make an Unarmed Strike immediately after the teleportation.</description>
+			<description level="11">While entirely within Dim Light or Darkness, you can teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You can spend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness. You can make an Unarmed Strike immediately after the teleportation, and you have Advantage on the next melee attack you make before the end of the turn.</description>
 		</sheet>
 	</element>
 	<element name="Improved Shadow Step" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_PHB_ARCHETYPE_FEATURE_WARRIOR_OF_SHADOW_IMPROVED_SHADOW_STEP">
