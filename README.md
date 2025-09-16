@@ -20,5 +20,7 @@ Classes:
 Monk (all sublcasses) has been implemented.
 
 Fighter (all subclasses) has been implemented.
+
+Ranger (no subclasses) has been implemented.
 <br/><br/><br/>
 Skill Proficiencies have been recreated to modify which classes have access to which proficiencies as necessary.
