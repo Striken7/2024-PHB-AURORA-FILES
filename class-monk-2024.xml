@@ -457,8 +457,10 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="dexterity" value="4" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="wisdom" value="4" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="dexterity" value="4" />
+			<stat name="wisdom" value="4" />
+			<stat name="dexterity:max" value="5" />
+			<stat name="wisdom:max" value="5" />
 		</rules>
 	</element>
 </elements>
