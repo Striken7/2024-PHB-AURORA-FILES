@@ -1,5 +1,5 @@
 # 2024-PHB-AURORA-FILES
-My personal collection of XML files to implement 2024 PHB information into the Aurora Character Builder. I am not a professional programmer, coder, or QA tester. All files are considered "works in progress".
+My personal collection of XML files to implement 2024 PHB information into the Aurora Character Builder. I am not a professional programmer, coder, or QA tester. All files are considered "works in progress". All 2024 PHB options will not overide other content and be listed seperately.
 
 Note: Files are being tested using other 2024 PHB content. No testing has been done with 2014 content or content from other sources.
 <br/><br/><br/>
